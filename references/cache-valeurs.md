@@ -76,6 +76,19 @@
 | Transposition au plus tard le 17 octobre 2024 ; application à partir du 18 octobre 2024 | Directive (UE) 2022/2555, art. 41 |
 | Projet de loi français : séance publique annoncée le 7 octobre 2026 ; seuils de population divergents selon les versions (30 000 / 250 000 habitants) — **aucun seuil retenu** | Dossier législatif, lu le 2026-10-05 |
 
+## Versions des référentiels et de la doctrine (lues le 2026-10-05)
+
+| Valeur | Source |
+|---|---|
+| RGS : version 2.0 du 13 juin 2014 ; annexes actualisées (dont B1 v2.04 du 1er janvier 2020) | Page ANSSI du RGS |
+| RGAA : version 4.1.2 en vigueur ; version 5 annoncée pour fin 2026 (prévision, pas une publication) | accessibilite.numerique.gouv.fr |
+| RGI : version 2.0 de décembre 2015, officialisée par arrêté du 20 avril 2016 (arrêté via WebFetch) | numerique.gouv.fr |
+| SecNumCloud : référentiel version 3.2 du 8 mars 2022 | Page des référentiels de l'ANSSI |
+| Catalogue des offres qualifiées : édition du 15 septembre 2026, mise à jour au moins mensuelle | ANSSI |
+| EBIOS Risk Manager : version 1.5, septembre 2024 | ANSSI |
+| Guide d'hygiène informatique : version 2.0, septembre 2017 | ANSSI |
+| Doctrine « cloud au centre » : circulaire n° 6404/SG du 31 mai 2023 (via WebFetch) | Légifrance |
+
 ## Valeurs non trouvées (à rechercher)
 
 | Valeur | Où chercher |

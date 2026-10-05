@@ -73,13 +73,17 @@
 | **Attestation formelle** de sécurité par l'autorité elle-même ; rendue accessible aux usagers d'un téléservice | Décret n° 2010-112, art. 5 | LEGIARTI000033232490 | 2016-03-19 | vérifié | **Oui (inférence)** : c'est la collectivité qui atteste ; voir encadré |
 | Qualification des produits de sécurité par l'ANSSI | Décret n° 2010-112, art. 6 et 9 | LEGIARTI000021780156 ; LEGIARTI000039353401 | 2010-02-05 ; 2019-11-09 | vérifié | Sans objet direct (produits, pas systèmes) |
 
-> **Vocabulaire opposable.** Les articles lus du décret n° 2010-112 ne parlent
-> pas d'« homologation » : l'autorité administrative **atteste formellement**
-> la sécurité de son système (art. 5). L'ANSSI **qualifie des produits**, elle
-> n'homologue pas les systèmes d'une collectivité. Les articles 7, 8 et 10 à 24
-> du décret n'ont pas été relus (⚠️). L'art. 5 renvoie à l'art. L. 112-10 du
-> CRPA pour la décision de création d'un téléservice, objet que cet article ne
-> traite plus : renvoi à ne pas relayer.
+> **Vocabulaire opposable, à deux niveaux.** Le **décret** n° 2010-112 (articles
+> lus) prévoit que l'autorité administrative **atteste formellement** la
+> sécurité de son système (art. 5). Le **référentiel** RGS (document approuvé
+> par arrêté, publié par l'ANSSI, section 15) décrit la démarche qui y conduit
+> sous le nom d'**homologation de sécurité**. Les deux termes sont exacts à leur
+> niveau ; c'est la collectivité qui homologue et atteste pour ses propres
+> systèmes. L'ANSSI **qualifie des produits** : elle n'homologue pas les
+> systèmes d'une collectivité. Les articles 7, 8 et 10 à 24 du décret n'ont pas
+> été relus (⚠️). L'art. 5 renvoie à l'art. L. 112-10 du CRPA pour la décision
+> de création d'un téléservice, objet que cet article ne traite plus : renvoi à
+> ne pas relayer.
 
 ## 5. Accessibilité numérique
 
@@ -202,8 +206,34 @@
 | Sécurité du traitement | RGPD, art. 32 | CELEX 32016R0679 | vérifié (intitulé) | Régime traité par `dpo-ct` |
 | Notification à l'autorité de contrôle d'une violation de données | RGPD, art. 33 | CELEX 32016R0679 | vérifié (intitulé) | Régime traité par `dpo-ct` |
 
-## 15. Doctrine d'appui (non normative)
+## 15. Doctrine d'appui et référentiels
 
-> **À compléter** avec le lot 4 (guides ANSSI, SecNumCloud, RGAA, RGI,
-> doctrine « cloud au centre », dispositifs d'assistance). La doctrine n'est
-> jamais du droit positif, sauf texte contraire cité.
+> **Doctrine d'appui : non normative, sauf texte contraire cité.** Versions et
+> dates de publication : `cache-valeurs.md`. Lus le 2026-10-05 sur les sites
+> officiels (détail et URL : `docs/socle/lot-4-doctrine.md`).
+
+### 15.1 Référentiels rendus obligatoires par un texte
+
+| Référentiel | Éditeur | Texte qui le rend opposable | Statut | Collectivités |
+|---|---|---|---|---|
+| Référentiel général de sécurité (RGS) | ANSSI, avec la DINUM | Ordonnance n° 2005-1516 et décret n° 2010-112 (§4) ; arrêté d'approbation cité par la page ANSSI (⚠️ arrêté non relu sur Légifrance) | vérifié (page ANSSI et document) | **Oui** : la page ANSSI cite expressément « les collectivités territoriales ». Démarche d'homologation de sécurité et analyse de risques exigées ; le reste est présenté comme recommandations |
+| Référentiel général d'amélioration de l'accessibilité (RGAA) | DINUM | Loi n° 2005-102, art. 47, et décret n° 2019-768, art. 5 (§5) : méthode technique de vérification | vérifié (version) ; ⚠️ date propre de la version et références de l'arrêté non affichées | **Oui** (personnes morales de droit public) ; une nouvelle version majeure est annoncée, à revérifier |
+| Référentiel général d'interopérabilité (RGI) | DINUM | Officialisé par arrêté (via WebFetch, ⚠️ arrêté non relu sur Légifrance) | vérifié (document) | **Sous conditions** : le document se déclare applicable à « l'ensemble des autorités administratives », dont les collectivités ; portée exacte de ses règles à qualifier |
+
+### 15.2 Doctrine non normative
+
+| Document | Éditeur | Statut | Portée pour une collectivité |
+|---|---|---|---|
+| Guide d'hygiène informatique | ANSSI | vérifié | Bonne pratique ; aucun texte ne le rend obligatoire |
+| Méthode EBIOS Risk Manager | ANSSI | vérifié | Bonne pratique ; méthode d'analyse de risques au libre choix de la collectivité |
+| Référentiel SecNumCloud (exigences des prestataires) | ANSSI | vérifié | **S'impose aux prestataires qui demandent la qualification, pas aux acheteurs** ; préconisé pour les données sensibles |
+| Catalogue des offres qualifiées | ANSSI | vérifié (mis à jour chaque mois) | Outil de vérification avant achat, à consulter à la date de la décision |
+| Doctrine « cloud au centre » (circulaire du Premier ministre) | Premier ministre, DINUM | vérifié via WebFetch | **Vise l'État** (destinataires : membres du gouvernement). Bonne pratique seulement pour une collectivité. **Piège** : la traduction anglaise de la règle R5 dit « local authorities » là où le français dit « l'administration » ; se référer au texte français |
+| CERT-FR | ANSSI | vérifié | Périmètre prioritaire : État, opérateurs d'importance vitale et de services essentiels ; pas l'interlocuteur de première ligne d'une collectivité |
+| CSIRT territoriaux et centres de ressources cyber | ANSSI ; liste sur le site du CERT-FR | vérifié | **Nomment expressément les collectivités** ; réponse à incident de premier niveau gratuite ; aucune obligation de recours. Citer la liste nominative, pas un décompte (les pages officielles se contredisent) |
+| Plateforme d'assistance aux victimes | dispositif national | ⚠️ non vérifié (site inaccessible) | Ne rien affirmer de son offre sans lecture directe |
+| Guide « Cybersécurité : toutes les communes et intercommunalités sont concernées » | ANSSI et AMF | vérifié | Bonne pratique ; guide daté, à croiser avec le droit en vigueur |
+| Guide « Sécurité numérique des collectivités territoriales : l'essentiel de la réglementation » | ANSSI | vérifié | Synthèse datée : ne reflète pas le droit actuel, textes à revérifier |
+| Guide sur les obligations et responsabilités des collectivités en cybersécurité | Cybermalveillance.gouv.fr et CNIL | vérifié (titre) ; ⚠️ date non lue | Informe, ne crée pas d'obligation |
+| Guide de sensibilisation au RGPD pour les collectivités | CNIL | vérifié (titre) ; ⚠️ date non lue | Périmètre `dpo-ct` |
+| Kit d'exercice de crise cyber pour les collectivités | ANSSI | vérifié (existence) | Outil d'entraînement, emploi libre |
