@@ -17,9 +17,9 @@ description: >-
   ni la passation des marchés.
 ---
 
-# Skill : dsi-fpt (v0.1.0)
+# Skill : dsi-fpt (v0.2.0)
 
-> **Métadonnées** — version : **0.1.0** · statut : **en construction, non
+> **Métadonnées** — version : **0.2.0** · statut : **en construction, non
 > mesuré** ; aucune campagne de cas n'a encore été conduite ; relecture par un
 > praticien DSI/RSSI de collectivité prévue avant la v1.0.0 · dernière revue du
 > socle : 2026-10-05 · périmètre : fonction systèmes d'information des

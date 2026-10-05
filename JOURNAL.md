@@ -28,6 +28,20 @@
 
 ## Entrées
 
+### 2026-10-05 — Reprise de rédaction et séparation des preuves
+
+- **Type** : lacune
+- **Branche** : ensemble du skill et outillage de mesure
+- **Contexte (anonymisé)** : rédaction interrompue après le routeur ; aucun
+  contenu métier complet ni campagne de mesure disponible.
+- **Constat** : un dossier préparé ou un score logiciel ne doit pas être
+  présenté comme mesure comportementale ; le titre de version seul ne
+  rattache pas la preuve aux branches effectivement lues.
+- **Action proposée** : achever les fichiers du cadrage, empreinter le runtime,
+  figer le barème et relier chaque jugement à sa réponse ; séparer seuil,
+  relecture praticien et publication.
+- **Statut** : intégré v0.2.0 ; mesure et revue encore à conduire.
+
 ### 2026-10-05 — Création du skill
 
 - **Type** : cas nouveau
