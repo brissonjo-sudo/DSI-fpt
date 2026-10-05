@@ -1,6 +1,6 @@
 # ADR-0001 — Adopter le patron d'architecture de `dirfi-fpt`
 
-**Statut** : proposé (en attente de validation du cadrage)
+**Statut** : accepté (cadrage validé par l'auteur le 2026-10-05)
 **Date** : 2026-10-05
 
 ## Contexte

@@ -1,7 +1,9 @@
 # Cadrage du skill `dsi-fpt` (v0.1.0)
 
-> **Statut** : proposé le 2026-10-05, **à valider par l'auteur** avant toute
-> rédaction (point d'étape de la Phase 1).
+> **Statut** : **validé par l'auteur le 2026-10-05** (point d'étape de la
+> Phase 1, PR #1) : pas de seuil d'effectif, traitement par mode d'exercice ;
+> 12 fiches de branche validées ; relecture par un praticien DSI/RSSI prévue
+> avant la v1.0.0 ; garde-fous du §3 validés tels quels.
 > **Usage** : document de conception, hors runtime. Les agents de rédaction de
 > la Phase 3 reçoivent chacun le `SKILL.md` figé et **la fiche de leur
 > branche** (§6). Toute référence juridique citée ici est un **candidat**, à
