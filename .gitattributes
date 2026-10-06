@@ -37,3 +37,6 @@
 *.wav    binary
 *.mp3    binary
 *.mp4    binary
+
+# Preuves empreintées : conserver leurs octets exacts, y compris les fins de ligne.
+docs/qualification/** -text
