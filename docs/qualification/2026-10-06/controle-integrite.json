@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-06T21:09:27.094395+00:00",
+  "source_commit": "704e5dd6a3d15994ed431b23585aabd72086ca75",
+  "candidate_head": "704e5dd6a3d15994ed431b23585aabd72086ca75",
+  "runtime_sha_checks": 870,
+  "runtime_hashes_conformant": true,
+  "isolated_inventories_exact": 28,
+  "proofs_sha_checked": 56,
+  "question_file_reads_verified": 28,
+  "initial_messages_verified": false,
+  "parent_events": 113,
+  "parent_trace_sha256": "fe435f4250561f50acec6c3e7a945f60896572eb5bd47e7f7cee8783fc011615",
+  "suite_sha256": "7c32137b1d411fbba461e396484d39e527781061e96de8b87922dc5230c08096",
+  "rubric_sha256": "8e5707de4fed99c43bebeb5813a423a996ed1e9f684a1c0affd80948588c95f4",
+  "report_sha256": "1fead19781968b9e2e5a15409ee0e5a36a5c7c75569c1cef5194329b04804906",
+  "summary_sha256": "7c834acd8842d613b8aaf7aa9ecee4af0ede4ccdeeb1ec3d814363d9da77bc5f",
+  "runtime_modified_by_campaign": false,
+  "release_ready": false,
+  "publication_ready": false
+}
