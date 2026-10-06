@@ -13,6 +13,9 @@ clôture de la source. Le titre de journalisation ne provoque plus de faux déla
 Les écarts autonomes de restitution et clôture sont aussi traités : absence
 de développement juridique après une bascule sans rôle chargé, objet incident
 nommé et réouverture des garde-fous prévue si l'expertise est contredite.
+La première mesure native corrigée a aussi révélé une tentative de lecture
+du cache de maintenance non distribué : les renvois d'exécution vers ce cache
+sont retirés, et sa frontière avec le paquet runtime est désormais explicite.
 
 Les mesures anciennes restent historiques et ne qualifient pas ce candidat.
 La campagne de coactivation doit figer ce nouveau runtime, ses sources et ses

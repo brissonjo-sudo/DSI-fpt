@@ -22,6 +22,8 @@ la première version mesurée au seuil.
 - Réversibilité : contrôle métier de la cible et retour arrière avant clôture.
 - Correction du faux délai détecté dans un titre de journalisation.
 - Aucun score antérieur transféré ; relecture praticien toujours requise.
+- Retrait des renvois d'exécution vers le cache de maintenance exclu du
+  paquet ; distinction explicite entre registre livré et maintenance source.
 
 ## [0.2.0] — 2026-10-05 — rédaction achevée, non mesurée
 
