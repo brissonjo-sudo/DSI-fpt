@@ -12,6 +12,41 @@ la première version mesurée au seuil.
 
 ---
 
+## [0.2.1] — 2026-10-06 — candidat corrigé, qualification ouverte
+
+- Réconciliation des brouillons sécurité et cloud avec le socle complet.
+- STOP dès le premier texte visible ; activation effective de la recherche
+  juridique et abstention sans texte primaire récupéré.
+- DPO consulté avant validation des mesures ; responsabilités et preuves
+  demandées en mutualisation ou externalisation.
+- Réversibilité : contrôle métier de la cible et retour arrière avant clôture.
+- Correction du faux délai détecté dans un titre de journalisation.
+- Aucun score antérieur transféré ; relecture praticien toujours requise.
+
+## [0.2.0] — 2026-10-05 — rédaction achevée, non mesurée
+
+### Ajouté
+
+- Les 12 branches décisionnelles, les 6 objets et les 5 gabarits interactifs
+  du cadrage validé, avec frontières opposables et renvois aux garde-fous.
+- Adaptation des scripts de packaging et d'évaluation du patron DirFi :
+  cache exclu, suite et barème figés, runtime empreinté, jugement lié à la
+  réponse et seuil calculé avec blocage des échecs critiques.
+- Suite de 28 cas, dont les 8 critiques du cadrage, et 12 tests de régression
+  de l'outillage. Ces tests logiciels ne constituent pas la mesure du skill.
+- CI Python sans dépendance tierce, métadonnées Codex et index de maintenance.
+- Fiche de relecture praticien et état d'avancement traçant les prérequis.
+- Kit autonome de campagne Claude/Codex (2026-10-06) : processus frais par
+  rôle, entrées séparées, traces brutes, empreintes et reprise contrôlée.
+  Quatorze tests supplémentaires utilisent des CLI simulées sans appel modèle.
+
+### Limites
+
+- Aucune campagne comportementale exécutée ; aucun score déclaré.
+- Relecture DSI/RSSI à organiser par l'auteur avant la v1.0.0.
+- Les textes non vérifiés restent réservés ; aucune extension juridique du
+  socle ni intégration au plugin n'est présumée par cette rédaction.
+
 ## [0.1.0] — en construction — non mesurée
 
 ### Ajouté

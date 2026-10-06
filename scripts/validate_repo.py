@@ -80,7 +80,7 @@ MIN_ATTENDUS = 4
 # Identifiants officiels en dur interdits hors registre vérifié : invariant
 # anti-hallucination central (AGENTS.md, contrainte 2). CELEX inclus.
 OFFICIAL_ID_PATTERN = re.compile(
-    r"\b(?:(?:LEGIARTI|JORFTEXT|CETATEXT|LEGITEXT)\d+|3\d{4}[LRDF]\d{4})\b"
+    r"\b(?:(?:LEGIARTI|JORFTEXT|CETATEXT|LEGITEXT)\d+|(?:0|3)\d{4}[LRDF]\d{4}(?:-\d{8})?)\b"
 )
 REGISTRY = Path("references/references-verifiees.md")
 
@@ -101,7 +101,7 @@ MONTHS = (
 VALUE_PATTERNS = {
     "montant": re.compile(r"\d[\d  .,]*\s?(?:€|euros?\b|k€|M€)", re.IGNORECASE),
     "délai chiffré": re.compile(
-        r"\b\d+\s?(?:h\b|heures?|jours?|semaines?|mois|ans?\b|années?)", re.IGNORECASE
+        r"\b\d+\s?(?:h\b|heures?\b|jours?\b|semaines?\b|mois\b|ans?\b|années?\b)", re.IGNORECASE
     ),
     "date": re.compile(rf"\b\d{{1,2}}(?:er)?\s+(?:{MONTHS})\s+\d{{4}}\b", re.IGNORECASE),
     "version de référentiel": re.compile(
@@ -369,8 +369,8 @@ def validate_cases(validation: Validation) -> None:
     if not isinstance(cases, list):
         return
     validation.require(
-        len(cases) >= MIN_TEST_CASES,
-        f"tests/cas-de-test.json : {len(cases)} cas au lieu d'au moins {MIN_TEST_CASES}",
+        len(cases) == MIN_TEST_CASES,
+        f"tests/cas-de-test.json : {len(cases)} cas au lieu de {MIN_TEST_CASES}",
     )
     identifiers: list[str] = []
     expected_keys = {"id", "branche", "type", "prompt", "attendus"}
@@ -390,10 +390,24 @@ def validate_cases(validation: Validation) -> None:
             isinstance(attendus, list) and len(attendus) >= MIN_ATTENDUS,
             f"cas {index} : attendus insuffisants (au moins {MIN_ATTENDUS} requis)",
         )
+        validation.require(
+            isinstance(attendus, list) and all(isinstance(a, str) and a.strip() for a in attendus),
+            f"cas {index} : attendu vide ou non textuel",
+        )
+        validation.require(
+            case.get("type") == ("critique" if index >= 21 else "standard"),
+            f"cas {index} : classification différente du cadrage",
+        )
     validation.require(
         len(identifiers) == len(set(identifiers)),
         "tests/cas-de-test.json : identifiants dupliqués",
     )
+    validation.require(identifiers == [f"cas-{n:02d}" for n in range(1, 29)],
+                       "tests/cas-de-test.json : ordre ou identifiants non conformes")
+    expected_targets = BRANCH_FILES | {f"objets/{n}" for n in EXPECTED_OBJETS - {"_gabarit-objet.md"}}
+    actual_targets = {str(c.get("branche", "")) + ".md" for c in cases if isinstance(c, dict)}
+    validation.require(expected_targets <= actual_targets,
+                       "tests/cas-de-test.json : branche ou objet non couvert")
 
 
 def extract_markdown_targets(text: str) -> set[str]:
@@ -481,6 +495,9 @@ def validate_forbidden_content(validation: Validation) -> None:
                 f"{relative} : {label} de mémoire interdit dans le runtime "
                 f"({', '.join(found[:5])}) — nommer la valeur, renvoyer au registre",
             )
+    for path in sorted((ROOT / "docs").rglob("*.md")):
+        validation.require(not OFFICIAL_ID_PATTERN.search(read_text(path)),
+                           f"{path.relative_to(ROOT)} : identifiant officiel hors registre")
 
 
 def is_allowed_email(email: str) -> bool:
@@ -522,6 +539,10 @@ def main(argv: list[str]) -> int:
     validate_runtime_links(validation)
     validate_forbidden_content(validation)
     validate_anti_pii(validation)
+    for name in ("scripts/eval_suite.py", "scripts/package_skill.py", "agents/openai.yaml",
+                 "tests/bareme-cas-de-test.md", ".github/workflows/validation.yml",
+                 "scripts/mesure_locale.py", "tests/test_mesure_locale.py", "docs/campagne-locale.md"):
+        validation.expect_file((ROOT / name).is_file(), f"{name} : fichier absent")
 
     for warning in validation.warnings:
         print(f"[AVERTISSEMENT] {warning}")
