@@ -10,6 +10,9 @@ activation effective de recherche-juridique sur déclencheur, retrait intégral
 des assertions sans preuve primaire, attribution explicite du fond juridique,
 exigences DPO reçues avant validation, reprise métier et retour arrière avant
 clôture de la source. Le titre de journalisation ne provoque plus de faux délai.
+Les écarts autonomes de restitution et clôture sont aussi traités : absence
+de développement juridique après une bascule sans rôle chargé, objet incident
+nommé et réouverture des garde-fous prévue si l'expertise est contredite.
 
 Les mesures anciennes restent historiques et ne qualifient pas ce candidat.
 La campagne de coactivation doit figer ce nouveau runtime, ses sources et ses
