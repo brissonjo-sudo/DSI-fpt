@@ -142,7 +142,9 @@ incidents.
 Si la demande montre déjà un incident ou une surveillance, afficher le STOP
 correspondant comme **premier texte visible**, avant toute phrase de cadrage,
 annonce d'activation, de lecture ou de recherche, titre ou question. Ne pas
-attendre la réponse finale. Si les deux déclencheurs sont présents, afficher
+attendre la réponse finale. Le texte commence par le mot STOP : ne pas le
+précéder d'un séparateur, d'un titre ou d'une ouverture de bloc de code.
+Si les deux déclencheurs sont présents, afficher
 les deux garde-fous avant de poursuivre. Ensuite, toute situation composée passe par
 **`references/analyse-situation.md`** (couche 1). Il détecte les garde-fous et
 les frontières, lève le mode d'exercice, puis oriente vers la branche (couche
