@@ -1,7 +1,8 @@
 # dsi-fpt — Direction des systèmes d'information en collectivité territoriale
 
-> **Statut : en construction (v0.1.0, non mesuré).** Le skill n'est pas encore
-> utilisable. Le cadrage est dans `docs/cadrage.md`, la décision
+> **Statut : version de travail v0.2.0, non mesurée.** Rédaction et outillage
+> achevés ; publication suspendue à la mesure et à la relecture DSI/RSSI.
+> Le cadrage est dans `docs/cadrage.md`, la décision
 > d'architecture dans `docs/adr/0001-adoption-patron-dirfi-fpt.md`.
 
 Système expert d'aide à la décision pour la fonction **systèmes
@@ -31,6 +32,29 @@ contrat posé par `dpo-ct` : **le DPO exige, la DSI met en œuvre**.
 4. Outillage de validation et de mesure.
 5. Campagne de mesure de 28 cas ; v1.0.0 au premier passage du seuil.
 6. Intégration au plugin `collectivite-territoriale`.
+
+État détaillé et limites d'exécution : [docs/etat-avancement.md](docs/etat-avancement.md).
+Relecture praticien : [docs/relecture-praticien.md](docs/relecture-praticien.md).
+
+## Vérifier et préparer la mesure
+
+```
+python scripts/validate_repo.py
+python -m unittest discover -s tests -p 'test_*.py'
+python scripts/package_skill.py
+python scripts/mesure_locale.py export --run-dir tests/runs/codex-v0.2.0-r1 --output dist/campagne-dsi-v0.2.0
+```
+
+L'archive du skill reste dans `dist/` ; elle exclut le cache des valeurs,
+les tests et les documents de conception. Le kit de campagne contient en
+plus les cas et le lanceur, avec séparation des entrées et des contextes.
+Le dossier de run est déjà préparé et l'export exige une destination neuve.
+La préparation et l'export n'appellent aucun modèle ; un dossier préparé
+n'a aucun score. Le lanceur local appelle ensuite la CLI choisie sur votre
+poste et conserve les réponses et jugements réellement produits.
+
+Commandes Claude/Codex, contrôle sans appel et reprise :
+[docs/campagne-locale.md](docs/campagne-locale.md).
 
 ## Licence
 
