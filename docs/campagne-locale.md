@@ -14,6 +14,11 @@ Le lanceur utilise cette connexion sans copier ni modifier ses identifiants.
 Les commandes réelles consomment les appels du compte ; `--dry-run` n'en fait
 aucun. Ne lancer qu'une commande de campagne à la fois dans un même kit.
 
+Les réponses, jugements et traces sont écrits en UTF-8 avec fins de ligne LF,
+y compris sous Windows : les octets conservés correspondent aux empreintes
+contrôlées à la reprise. Utiliser un kit régénéré avec ce correctif ; ne pas
+modifier les anciennes preuves pour rendre leurs empreintes compatibles.
+
 Claude Code doit prendre en charge `--restricted` (à partir de v2.1.248),
 `--no-session-persistence` et `--output-format stream-json`. La CLI Codex doit
 prendre en charge `exec --ephemeral --ignore-user-config --json` et

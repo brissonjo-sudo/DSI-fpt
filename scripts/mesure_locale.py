@@ -35,7 +35,8 @@ def save(path: Path, value) -> None:
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".tmp")
-    temporary.write_text(text, encoding="utf-8")
+    # Garder les octets empreintés identiques sur Windows et Unix.
+    temporary.write_text(text, encoding="utf-8", newline="\n")
     temporary.replace(path)
 
 
