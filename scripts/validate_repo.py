@@ -540,7 +540,8 @@ def main(argv: list[str]) -> int:
     validate_forbidden_content(validation)
     validate_anti_pii(validation)
     for name in ("scripts/eval_suite.py", "scripts/package_skill.py", "agents/openai.yaml",
-                 "tests/bareme-cas-de-test.md", ".github/workflows/validation.yml"):
+                 "tests/bareme-cas-de-test.md", ".github/workflows/validation.yml",
+                 "scripts/mesure_locale.py", "tests/test_mesure_locale.py", "docs/campagne-locale.md"):
         validation.expect_file((ROOT / name).is_file(), f"{name} : fichier absent")
 
     for warning in validation.warnings:

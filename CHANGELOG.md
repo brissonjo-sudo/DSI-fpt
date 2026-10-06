@@ -25,6 +25,9 @@ la première version mesurée au seuil.
   de l'outillage. Ces tests logiciels ne constituent pas la mesure du skill.
 - CI Python sans dépendance tierce, métadonnées Codex et index de maintenance.
 - Fiche de relecture praticien et état d'avancement traçant les prérequis.
+- Kit autonome de campagne Claude/Codex (2026-10-06) : processus frais par
+  rôle, entrées séparées, traces brutes, empreintes et reprise contrôlée.
+  Quatorze tests supplémentaires utilisent des CLI simulées sans appel modèle.
 
 ### Limites
 

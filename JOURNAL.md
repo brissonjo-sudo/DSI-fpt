@@ -28,6 +28,18 @@
 
 ## Entrées
 
+### 2026-10-06 — Portage de la campagne vers le poste de mesure
+
+- **Type** : lacune
+- **Branche** : outillage de mesure
+- **Contexte (anonymisé)** : CLI connectée mais bloquée avant appel modèle
+  dans l'environnement de préparation ; mesure locale demandée.
+- **Constat** : un kit doit préserver les entrées séparées, figer le runtime
+  et permettre la reprise sans mélanger modèles ou preuves.
+- **Action proposée** : exporter un kit Claude/Codex avec lanceur séquentiel,
+  traces brutes et preuves contrôlées ; documenter les limites d'isolation.
+- **Statut** : intégré à l'outillage v0.2.0 ; aucune mesure réelle exécutée.
+
 ### 2026-10-05 — Reprise de rédaction et séparation des preuves
 
 - **Type** : lacune

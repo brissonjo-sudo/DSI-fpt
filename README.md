@@ -42,13 +42,19 @@ Relecture praticien : [docs/relecture-praticien.md](docs/relecture-praticien.md)
 python scripts/validate_repo.py
 python -m unittest discover -s tests -p 'test_*.py'
 python scripts/package_skill.py
-python scripts/eval_suite.py prepare --run-dir tests/runs/codex-v0.2.0-r1 --responder Codex --judge Codex
+python scripts/mesure_locale.py export --run-dir tests/runs/codex-v0.2.0-r1 --output dist/campagne-dsi-v0.2.0
 ```
 
-L'archive de portage reste dans `dist/` ; elle exclut le cache des valeurs,
-les tests et les documents de conception. Le barème impose des contextes
-séparés et l'activation effective du runtime. Les scripts ne génèrent aucune
-réponse ni aucun jugement ; un dossier préparé n'a aucun score.
+L'archive du skill reste dans `dist/` ; elle exclut le cache des valeurs,
+les tests et les documents de conception. Le kit de campagne contient en
+plus les cas et le lanceur, avec séparation des entrées et des contextes.
+Le dossier de run est déjà préparé et l'export exige une destination neuve.
+La préparation et l'export n'appellent aucun modèle ; un dossier préparé
+n'a aucun score. Le lanceur local appelle ensuite la CLI choisie sur votre
+poste et conserve les réponses et jugements réellement produits.
+
+Commandes Claude/Codex, contrôle sans appel et reprise :
+[docs/campagne-locale.md](docs/campagne-locale.md).
 
 ## Licence
 
