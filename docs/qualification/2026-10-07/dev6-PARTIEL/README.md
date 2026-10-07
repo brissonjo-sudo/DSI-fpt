@@ -1,4 +1,4 @@
-# Bilan courant : dev.6 PARTIEL
+# Dev.6 : pilote PARTIEL et découverte native
 
 Le pilote dev.6 est **PARTIEL** : seize cas et 124 exigences préparés,
 six cas exécutés, cinq réponses liées et cinq juges frais (dix rôles retenus).
@@ -33,10 +33,7 @@ La campagne utilise les sous-agents natifs Codex, sans lancement de Claude.
 Avis humains DSI/RSSI et juridiques, smoke d'usage et suite complète restent
 ouverts ; `release_ready=false`. Les PR restent brouillon, sans fusion ni release.
 
-[Pièces dev.6 PARTIEL](dev6-PARTIEL/README.md) · [rapport](dev6-PARTIEL/rapport-PARTIEL.md)
-
-La présentation v7 reste **historique** : elle décrivait dev.6 non mesuré à sa date. Elle ne présente pas ces résultats partiels. Aucun nouveau PowerPoint n'est produit. Ses contrôles propres et l'inventaire v7 sont conservés sans transfert. Voir [README historique v7](README-v7-historique.md).
-
-Dev.5 R2 reste historique : 4 réussites, 6 échecs et 6 bloqués sur 16 cas ; DSI autonome reste 28/28 sur son propre commit. Avis humains et ouverture PowerPoint native restent ouverts. CI à vérifier sur chaque nouveau SHA après push.
+Les rapports de faisabilité et d'installation sont des snapshots datés.
+Le reçu de découverte postérieur complète leurs constats sans les réécrire.
 
 Le diagnostic explicite du 7 octobre à 21:47 UTC conserve le marqueur `$collectivite-territoriale:dsi-fpt` comme texte utilisateur. Aucun bloc contenant les instructions complètes DSI n’est attesté ; seule la découverte est confirmée. Aucune inférence ni connexion demandée. Voir les pièces distinctes `smoke-dev6-explicite-diagnostic-2026-10-07.md/json`. Les reçus antérieurs restent des snapshots datés.

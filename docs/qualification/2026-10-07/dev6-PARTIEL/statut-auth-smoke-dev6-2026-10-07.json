@@ -1,0 +1,13 @@
+{
+  "record_kind": "root_observation_of_actual_cli_login_status",
+  "observed_at": "2026-10-07T21:34:36.7875135Z",
+  "command": "ouvrir-smoke-dev6.ps1 (default: isolated codex login status)",
+  "command_output_chunk_id": "7e789f",
+  "state_relative_path": "smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state",
+  "cli_exit_code": 1,
+  "safe_status": "not_logged_in",
+  "upstream_authentication_verified": false,
+  "inference_requested": false,
+  "global_credentials_read_or_copied_by_this_control": false,
+  "scope": "point_in_time_status; not a future or account-wide claim"
+}
