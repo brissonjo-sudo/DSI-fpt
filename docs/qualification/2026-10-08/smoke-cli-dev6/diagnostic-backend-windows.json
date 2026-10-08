@@ -1,0 +1,19 @@
+{
+  "scope": "read_only_cli_diagnostic_no_model_inference",
+  "observed_cli_version": "0.162.0-alpha.2",
+  "requested_argv": ["sandbox", "windows", "--help"],
+  "purpose": "inspect CLI help",
+  "unexpected_effect": "CLI reported a Windows sandbox setup-helper attempt instead of help",
+  "exact_error": "windows sandbox failed: orchestrator_helper_exit_nonzero: setup helper exited with status Some(1)",
+  "setup_helper_exit_reported": 1,
+  "cli_exit_code_not_recorded_separately": true,
+  "successful_setup_verified": false,
+  "system_changes_audited": false,
+  "profile_scope": "default CLI environment; isolated profile was not explicitly selected for this help query",
+  "isolated_smoke_cache_and_config_unchanged_after_diagnostic": true,
+  "policy_bypass_requested": false,
+  "model_inference_requested": false,
+  "cause_of_model_read_rejections": "Windows backend not configured is probable, not proven for this build",
+  "parent_tool_chunk": "23309d",
+  "release_ready": false
+}
