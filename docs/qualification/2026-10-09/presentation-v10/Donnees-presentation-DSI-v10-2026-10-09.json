@@ -1,0 +1,252 @@
+{
+  "schema_version": "dsi-presentation-v10-data-v1",
+  "created_at": "2026-10-08T22:24:44.630Z",
+  "presentation_date": "2026-10-09",
+  "source_v9": {
+    "path": "livrables/Presentation-DSI-corrections-2026-10-08-v9.pptx",
+    "sha256": "27699e60c3c34452446b5ee850e03fe00859e9f2d5b27498a996bd74c4ee2c55"
+  },
+  "source_evidence": [
+    {
+      "path": "diagnostic-reprise-dev7-20261009-v2/diagnostic-assaini.json",
+      "sha256": "b5b681e728b05ae752164252d19d26d2fe26b64a897eb90457b257df7516c697"
+    },
+    {
+      "path": "diagnostic-reprise-dev7-20261009-v2/precontrole-mcp-assaini.json",
+      "sha256": "9570898b9d875144ca4c9546a7c84dfae1c2924aa86117fb9e5e1f9d6efade49"
+    },
+    {
+      "path": "diagnostic-reprise-dev7-20261009-v2/oauth-resultat-assaini.json",
+      "sha256": "fe25c1504924b16eedf39c96a4ef35fbd9b94ae38aacd7e88cf497407bdba306"
+    },
+    {
+      "path": "bilan-dev7-r3-verifie-20261008.json",
+      "sha256": "932e89e32a0ff4afba43241087df39de70f2788750a12930d7d2a725d4a21ee6"
+    }
+  ],
+  "candidate_commit": "fb186b4951b95adabf05904f8a34995720588be3",
+  "changed_slides": [
+    1,
+    9,
+    11
+  ],
+  "measured_partial": {
+    "executed_cases": 3,
+    "suite_cases": 16,
+    "blocked_preflight": 13,
+    "eligible_atoms": 23,
+    "verdict_totals": {
+      "reussite": 2,
+      "echec": 1,
+      "bloque": 0
+    },
+    "atom_totals": {
+      "true": 16,
+      "false": 1,
+      "null": 6
+    },
+    "cases": [
+      {
+        "case_id": "plugin-mcp-indisponible",
+        "verdict": "reussite",
+        "atoms": {
+          "true": 5,
+          "false": 0,
+          "null": 0
+        }
+      },
+      {
+        "case_id": "plugin-dsi-technique",
+        "verdict": "echec",
+        "atoms": {
+          "true": 3,
+          "false": 1,
+          "null": 6
+        }
+      },
+      {
+        "case_id": "plugin-dsi-source-indisponible",
+        "verdict": "reussite",
+        "atoms": {
+          "true": 8,
+          "false": 0,
+          "null": 0
+        }
+      }
+    ]
+  },
+  "diagnostic": {
+    "correlations": [
+      {
+        "case_id": "plugin-mcp-indisponible",
+        "native_event_id": "native-L000017",
+        "native_rollout_sha256": "523c2d6279e251a81650f25f5197be95d2d2413c528e03c94ee245a4fa4230aa",
+        "native_line_sha256": "2f5064b0ac57c147835fc69e22779704081d508f765a7e9144a573c9c86839f9",
+        "native_timestamp": "2026-10-08T19:35:58.701Z",
+        "sandbox_log_line": 68,
+        "sandbox_log_line_sha256": "aadb57467a060666e52c14ec2fdc4b815817b59a20031f18a1019de8a295ace7",
+        "sandbox_timestamp": "2026-10-08T19:35:58.629202400+00:00",
+        "timestamp_gap_seconds": 0.071798,
+        "windows_error": 32,
+        "mechanism": "runtime_acl_refresh_file_in_use",
+        "runtime_binary": "node.exe",
+        "historical_owner_pid_verified": false,
+        "auto_review_rejection_established": false
+      },
+      {
+        "case_id": "plugin-dsi-technique",
+        "native_event_id": "native-L000016",
+        "native_rollout_sha256": "d4541813076c1dc847bc0da94402bd36ad38fad3ee180bf54e6fa027259804c5",
+        "native_line_sha256": "0721cdb01d2042afedebc0d0d68dc85df61e2b8c057a34f2ca3981b0bc03da94",
+        "native_timestamp": "2026-10-08T19:36:19.549Z",
+        "sandbox_log_line": 81,
+        "sandbox_log_line_sha256": "de30068133f476899d8a9c2afec283b26099c7f0af287a4e2f578cc613c3acad",
+        "sandbox_timestamp": "2026-10-08T19:36:19.514553700+00:00",
+        "timestamp_gap_seconds": 0.034447,
+        "windows_error": 32,
+        "mechanism": "runtime_acl_refresh_file_in_use",
+        "runtime_binary": "node.exe",
+        "historical_owner_pid_verified": false,
+        "auto_review_rejection_established": false
+      },
+      {
+        "case_id": "plugin-dsi-technique",
+        "native_event_id": "native-L000039",
+        "native_rollout_sha256": "d4541813076c1dc847bc0da94402bd36ad38fad3ee180bf54e6fa027259804c5",
+        "native_line_sha256": "b9a2ef9f5b3fbd829d556d0dd82953f93d31d2a73faf15bdaadf72d361435b3b",
+        "native_timestamp": "2026-10-08T19:36:32.762Z",
+        "sandbox_log_line": 94,
+        "sandbox_log_line_sha256": "6bdf09612cdf957d95cb74c5337d85372688719beb7487407f7b4659c9929dd9",
+        "sandbox_timestamp": "2026-10-08T19:36:32.694736300+00:00",
+        "timestamp_gap_seconds": 0.067264,
+        "windows_error": 32,
+        "mechanism": "runtime_acl_refresh_file_in_use",
+        "runtime_binary": "node.exe",
+        "historical_owner_pid_verified": false,
+        "auto_review_rejection_established": false
+      },
+      {
+        "case_id": "plugin-dsi-source-indisponible",
+        "native_event_id": "native-L000018",
+        "native_rollout_sha256": "6365981ef7334cd27ff13520cd3dd46ff7164c8a157f4f0c5fabcda34adea5bf",
+        "native_line_sha256": "24fe7993971b8ae3c027a61b1145848a33a064cf7693f381e2c722a3a11b9d40",
+        "native_timestamp": "2026-10-08T19:36:51.788Z",
+        "sandbox_log_line": 107,
+        "sandbox_log_line_sha256": "97d6a57b42ad54243afad0666f670466ab55aefa35ff4cab9df05132b6fb59c6",
+        "sandbox_timestamp": "2026-10-08T19:36:51.710070100+00:00",
+        "timestamp_gap_seconds": 0.07793,
+        "windows_error": 32,
+        "mechanism": "runtime_acl_refresh_file_in_use",
+        "runtime_binary": "node.exe",
+        "historical_owner_pid_verified": false,
+        "auto_review_rejection_established": false
+      }
+    ],
+    "safe_probes": [
+      {
+        "probe_id": "lecture-sandbox-capacites-20261008-r1",
+        "receipt_sha256": "5aa3f3eeb3b959f3d6275658a01335e88972970a83a2d43c7937b9e883647d1e",
+        "success": false,
+        "model_inference": false,
+        "configuration_file_unchanged": true,
+        "installed_files_unchanged": true,
+        "windows_sandbox_service_requested": false,
+        "node_path_override_requested": false,
+        "workspace_dependencies_disabled": false
+      },
+      {
+        "probe_id": "lecture-sandbox-capacites-20261008-r2-service",
+        "receipt_sha256": "d2d034b84469ace84f55208644421906ed23aa5b7915c76ceca12a81f0321912",
+        "success": false,
+        "model_inference": false,
+        "configuration_file_unchanged": true,
+        "installed_files_unchanged": true,
+        "windows_sandbox_service_requested": true,
+        "node_path_override_requested": false,
+        "workspace_dependencies_disabled": false
+      },
+      {
+        "probe_id": "lecture-sandbox-capacites-20261008-r4-node",
+        "receipt_sha256": "ae770e69d3c2ba784443368bf2930c511eafa87fd0ee042f828c4524a5229f9f",
+        "success": false,
+        "model_inference": false,
+        "configuration_file_unchanged": true,
+        "installed_files_unchanged": true,
+        "windows_sandbox_service_requested": false,
+        "node_path_override_requested": true,
+        "workspace_dependencies_disabled": false
+      },
+      {
+        "probe_id": "lecture-sandbox-capacites-20261009-r5-dependances",
+        "receipt_sha256": "8f086c6e1b747699332c27de3c8682b16bb439a6a8370f3481cf617485fa7048",
+        "success": false,
+        "model_inference": false,
+        "configuration_file_unchanged": true,
+        "installed_files_unchanged": true,
+        "windows_sandbox_service_requested": false,
+        "node_path_override_requested": false,
+        "workspace_dependencies_disabled": true
+      }
+    ],
+    "historical_process_owner_not_inferred": true,
+    "app_open_fix_verified": false,
+    "cold_launcher_fix_verified": false,
+    "mcp_auth_status_observed": "notLoggedIn",
+    "legal_tool_count_observed": 0,
+    "primary_text_retrieved": false,
+    "oauth_attempt": {
+      "started_at": "2026-10-08T22:04:59.906949+00:00",
+      "completed_at": "2026-10-08T22:15:00.166311+00:00",
+      "completed": false,
+      "flow_timeout": true,
+      "automatic_retry": false,
+      "auth_secrets_read": false
+    },
+    "persisted_config_unchanged": true
+  },
+  "new_respondents": 0,
+  "new_campaign_prepared": false,
+  "new_campaign_measured": false,
+  "historical_scores_reused": false,
+  "critical_stop_reopening_tested": false,
+  "native_powerpoint_open_verified": false,
+  "human_review": false,
+  "release_ready": false,
+  "slide9_title": "Connexion juridique et reprise Windows",
+  "slide9_paragraphs": [
+    "Connexion juridique à terminer : le MCP droit-francais répond « notLoggedIn », sans outil accessible.",
+    "Le flux OAuth expire sans retour utilisateur. La connexion Codex ne suffit pas à établir celle du MCP juridique.",
+    "Reprise Windows à froid à valider : quatre erreurs 32 au rafraîchissement des ACL de node.exe. Processus détenteur inconnu.",
+    "Quatre sondes ont échoué, sans correction validée. Le bilan reste : trois cas jugés, deux réussites, un échec."
+  ],
+  "slide11_table": [
+    [
+      "Étape",
+      "Preuve attendue"
+    ],
+    [
+      "Connexion juridique",
+      "OAuth terminé, outils MCP disponibles et source récupérée"
+    ],
+    [
+      "Reprise Windows à froid",
+      "Lecture native des skills réussie et mécanisme vérifié"
+    ],
+    [
+      "Suite complète dev.7",
+      "Seize nouveaux cas jugés, dont réouverture STOP critique"
+    ],
+    [
+      "Revue DSI/RSSI et juridique",
+      "Avis humains sur les branches et les preuves exactes"
+    ],
+    [
+      "PowerPoint et distribution",
+      "Ouverture native, smoke du candidat et décision humaine"
+    ]
+  ],
+  "slide11_footer": "Aucune nouvelle mesure. Avis humains en attente. release_ready=false.",
+  "notes_delta": "Complément de diagnostic du 9 octobre 2026, distinct des preuves R3 du 8 octobre. Le bilan 3/16 demeure inchangé : deux réussites, un échec, 16 critères vrais, un faux et six non vérifiables. Aucun répondant nouveau, aucune nouvelle campagne préparée ou mesurée.\n\nLes quatre événements R3 sont corrélés au journal sandbox : erreur Windows 32 pendant le rafraîchissement des ACL de node.exe aux horaires 19:35:58, 19:36:19, 19:36:32 et 19:36:51 UTC le 8 octobre. Corrélation chronologique et mécanisme concordant, pas identification du PID historique détenteur. Aucun refus automatique d’approbation établi. Les preuves R3 restent immuables.\n\nLes quatre sondes sans inférence de modèle échouent encore. Elles examinent les capacités, le service Windows, le chemin Node et la désactivation des dépendances du workspace. Configuration persistée et cache installé inchangés. Aucune correction application ouverte ni reprise à froid validée. Une autre erreur 32 sur node_repl.exe a été observée lors des sondes application ouverte et ne démontre aucun correctif.\n\nLe précontrôle du candidat droit-francais indique notLoggedIn, zéro outil et Auth required. La connexion OAuth de Codex ne prouve pas la connexion au MCP juridique. Le flux officiel du 8 octobre 22:04:59 à 22:15:00 UTC expire sans retour utilisateur. Aucun secret lu ou copié, aucune inférence de modèle et aucune relance automatique. Aucun texte primaire récupéré.\n\nAvant toute nouvelle mesure, terminer la connexion juridique et valider la reprise Windows à froid. La suite complète prévoit seize nouveaux cas et 124 critères, dont la réouverture STOP critique. Les avis DSI/RSSI et juridique, l’ouverture native PowerPoint et la décision humaine de distribution restent en attente. release_ready=false.\n\nSources assainies liées, sans consultation des journaux privés ni des secrets :\ndiagnostic-reprise-dev7-20261009-v2/diagnostic-assaini.json\nSHA-256 b5b681e728b05ae752164252d19d26d2fe26b64a897eb90457b257df7516c697\ndiagnostic-reprise-dev7-20261009-v2/precontrole-mcp-assaini.json\nSHA-256 9570898b9d875144ca4c9546a7c84dfae1c2924aa86117fb9e5e1f9d6efade49\ndiagnostic-reprise-dev7-20261009-v2/oauth-resultat-assaini.json\nSHA-256 fe25c1504924b16eedf39c96a4ef35fbd9b94ae38aacd7e88cf497407bdba306\nbilan-dev7-r3-verifie-20261008.json\nSHA-256 932e89e32a0ff4afba43241087df39de70f2788750a12930d7d2a725d4a21ee6",
+  "local_original_receipt_sha256": "aa32b53fa93a442b0ff5d0ecbe62fae02eba38f7e92dbd98cba22f5a67c57fee",
+  "local_paths_replaced_in_public_derivative": true
+}
