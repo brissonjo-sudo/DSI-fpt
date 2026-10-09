@@ -1,0 +1,33 @@
+{
+  "started_at": "2026-10-07T21:47:36.2006444Z",
+  "finished_at": "2026-10-07T21:47:36.3454101Z",
+  "executable": "C:\\Users\\Krn\\AppData\\Local\\OpenAI\\Codex\\bin\\8aaf1547b825b104\\codex.exe",
+  "argv": [
+    "--cd",
+    "C:\\Users\\Krn\\Documents\\Codex\\2026-10-06\\reprends-le-travail-de-cette-session\\smoke-dev6-isole-20261007-211629-4dc9cd90",
+    "debug",
+    "prompt-input",
+    "$collectivite-territoriale:dsi-fpt"
+  ],
+  "initial_mention": "$collectivite-territoriale:dsi-fpt",
+  "state_root": "C:\\Users\\Krn\\Documents\\Codex\\2026-10-06\\reprends-le-travail-de-cette-session\\smoke-dev6-isole-20261007-211629-4dc9cd90\\codex-state",
+  "candidate_commit": "3f0df285898cf1e36d1ddda8d85d0c4cd5e0903b",
+  "script_sha256": "7acda61cf2ff845f1d3954e4c18a8f9c4455cc3e1c963f36a0a1259db7996d27",
+  "attempts": 1,
+  "timeout_seconds": 30,
+  "timed_out": false,
+  "exit_code": 0,
+  "stdout_sha256": "19b9a473edfe142602df6d6d5cf3e241ed19ca5a3420c91c7dbeed02adfd8ea8",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 17132,
+  "stderr_bytes": 0,
+  "candidate_cache_and_config_unchanged": true,
+  "unchanged_files_checked": 427,
+  "model_inference_requested": false,
+  "login_requested": false,
+  "model_usage_verified": false,
+  "spontaneous_selection_verified": false,
+  "human_validation": false,
+  "raw_outputs_local_only": true,
+  "release_ready": false
+}

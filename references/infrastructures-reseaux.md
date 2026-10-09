@@ -82,6 +82,12 @@ objectifs et priorités de continuité sont instruits par
 
 ### Exploitabilité et téléphonie
 
+Pour diagnostiquer une infrastructure, relier l'inventaire des équipements
+et dépendances aux besoins des sites, à la supervision (indicateurs, alertes,
+responsable d'exploitation) et à la continuité (point de panne, solution de
+secours, essai autorisé). Signaler les inconnues avant de dimensionner. Ces
+questions techniques seules ne nécessitent pas de coactivation juridique.
+
 Exiger un propriétaire d'exploitation, une documentation à jour, une
 procédure de changement autorisée et la possibilité de récupérer les
 configurations. Éviter une architecture que seul un intervenant sait
@@ -184,7 +190,8 @@ de doctrine et la stratégie de numérique responsable. Les textes DEEE,
 réemploi et prescriptions sectorielles non présents au registre restent à
 vérifier avant usage. Vérifier seuils, taux, échéances, périmètre des
 équipements et versions de référentiels à leur source, sans les produire de
-mémoire. `references/cache-valeurs.md` indique où reprendre une vérification.
+mémoire. Le registre livré oriente la recherche de sources primaires ; le cache
+de maintenance du dépôt source est hors runtime et ne se charge pas.
 
 Les capacités techniques et dates de fin de support se contrôlent auprès
 de leur source compétente et du dossier d'exploitation ; ne pas en déduire

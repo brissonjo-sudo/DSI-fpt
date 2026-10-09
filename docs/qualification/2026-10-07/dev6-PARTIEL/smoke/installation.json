@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-07T21:16:32.0054687Z",
+  "candidate_commit": "3f0df285898cf1e36d1ddda8d85d0c4cd5e0903b",
+  "installed_manifest_version": "1.2.0-dev.6",
+  "installed_path": "C:\\Users\\Krn\\Documents\\Codex\\2026-10-06\\reprends-le-travail-de-cette-session\\smoke-dev6-isole-20261007-211629-4dc9cd90\\codex-state\\plugins\\cache\\smoke-dev6\\collectivite-territoriale\\1.2.0-dev.6",
+  "installed_files_verified": 214,
+  "runtime_files_verified": 166,
+  "installed": true,
+  "mcp_configured_disabled": true,
+  "mcp_actual_exposure_verified": false,
+  "actual_plugin_activation_verified": false,
+  "inference_launched": false,
+  "authentication": "not_established_no_credentials_copied",
+  "measured": false,
+  "release_ready": false
+}

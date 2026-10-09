@@ -1,0 +1,16 @@
+{
+  "began_at": "2026-10-07T21:21:54.1857880Z",
+  "ended_at": "2026-10-07T21:21:54.3135877Z",
+  "command": "--no-daemon --cd \"C:\\Users\\Krn\\Documents\\Codex\\2026-10-06\\reprends-le-travail-de-cette-session\\smoke-dev6-isole-20261007-211629-4dc9cd90\" debug prompt-input",
+  "completed_before_timeout": true,
+  "exit_code": 0,
+  "stdout_sha256": "4ebce008ecc8ce337310f65fdc7cb6729ce426634b3d057fdfdd2161f1dd4681",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_characters": 16586,
+  "stderr_characters": 0,
+  "state_root": "C:\\Users\\Krn\\Documents\\Codex\\2026-10-06\\reprends-le-travail-de-cette-session\\smoke-dev6-isole-20261007-211629-4dc9cd90\\codex-state",
+  "inference_requested": false,
+  "activation_observed": false,
+  "authentication_tested": false,
+  "release_ready": false
+}

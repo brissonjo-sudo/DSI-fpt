@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-08T10:46:29.743986+00:00",
+  "presentation_sha256": "2c52b852ba1f0fa975c6e256f2faac2e568c63fc40e42e0cd7d3e94c1654504b",
+  "source_v7_sha256": "9d5d672e68376b67064d197aae147b6724bfeb8e44461788dfbe0e57b70c369a",
+  "slides_visually_inspected_at_full_size": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "changed_slides": [
+    1,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "visual_inspection": "Rendus PNG Artifact Tool inspectes individuellement ; aucun chevauchement ou texte coupe observe.",
+  "unchanged_slides_compared": {
+    "2": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v7\\slide-2.png"
+    },
+    "3": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v7\\slide-3.png"
+    },
+    "4": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\source-v7-slide-4-current.png"
+    },
+    "5": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v7\\slide-5.png"
+    },
+    "10": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v7\\slide-10.png"
+    }
+  },
+  "comparison_note": "Slide 4 source rendue a nouveau avec le runtime courant pour comparaison du graphique.",
+  "original_chart_and_workbook_identical": {
+    "ppt/slides/charts/chart1.xml": true,
+    "ppt/slides/charts/_rels/chart1.xml.rels": true,
+    "ppt/embeddings/chart-data-snapshot-001.xlsx": true
+  },
+  "native_powerpoint_open_verified": false,
+  "human_dsi_review_received": false,
+  "release_ready": false
+}

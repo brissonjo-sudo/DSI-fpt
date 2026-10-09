@@ -1,4 +1,31 @@
-# État de reprise — DSI-fpt v0.2.0
+# État de reprise — DSI-fpt v0.2.1
+
+## 2026-10-06 — candidat corrigé et nouvelle mesure
+
+Le runtime source `704e5dd6a3d15994ed431b23585aabd72086ca75` a reçu une nouvelle
+campagne native r2 : **28 réussites sur 28**, dont les huit cas critiques.
+Les 56 rôles retenus sont frais et leurs écritures sont liées aux traces natives.
+Quatre tentatives préprotocole sont conservées et exclues ; un lancement refusé
+n'a créé aucun rôle. Les 28 questions ont été lues intégralement et les 870
+comparaisons d'empreintes runtime sont conformes. Le message initial chiffré du
+fournisseur n'est pas déclaré vérifié en clair.
+
+Le seuil autonome est atteint sur cette source. La mesure s'est déroulée sans
+récupération extérieure de texte primaire ; elle ne certifie pas le droit.
+Le plugin à six variantes locales reste une qualification séparée : la nouvelle
+tentative r6 a achevé une réponse, puis quinze cas ont rencontré le quota.
+La revue DSI/RSSI, la revue juridique et le smoke Codex restent ouverts.
+`release_ready=false` ; le candidat et les PR restent en brouillon.
+
+Le seul cas de coactivation achevé, APJA sur dev.3, échoue sur la concordance
+d'une catégorie restituée avec le texte reçu. Un dernier correctif dev.4 est
+isolé dans le plugin ; il reste non mesuré et ne reçoit aucun score de dev.3.
+
+Rapport, support de présentation et archive portable sont conservés dans
+`docs/qualification/2026-10-06/`. Le commit documentaire final ne remplace pas
+le pin du runtime effectivement mesuré. Aucun résultat ancien n'est transféré.
+
+## État antérieur conservé — v0.2.0
 
 Mise à jour : 2026-10-06. Reprise de `claude/redaction-dsi-fpt`, commit `ad3e4ee`,
 après cadrage validé et socle de sources. Aucun plan DSI n'a été trouvé dans

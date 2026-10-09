@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-10-07T19:38:39.116978+00:00",
+  "presentation_sha256": "9d5d672e68376b67064d197aae147b6724bfeb8e44461788dfbe0e57b70c369a",
+  "changed_slides_visually_inspected": [
+    1,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "visual_inspection": "Inspected by root from final Artifact Tool PNG renders; no clipping observed.",
+  "unchanged_slides_compared": {
+    "2": {
+      "pixel_identical": true
+    },
+    "3": {
+      "pixel_identical": true
+    },
+    "4": {
+      "pixel_identical": true
+    },
+    "5": {
+      "pixel_identical": true
+    },
+    "10": {
+      "pixel_identical": true
+    }
+  },
+  "native_powerpoint_open_verified": false,
+  "human_dsi_review_received": false,
+  "release_ready": false
+}

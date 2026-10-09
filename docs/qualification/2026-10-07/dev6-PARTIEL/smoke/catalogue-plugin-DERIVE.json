@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-07T21:50:40.498997+00:00",
+  "derived_piece": true,
+  "source_local_file": "prompt-input.stdout.txt (non publié)",
+  "source_local_stdout_sha256": "4ebce008ecc8ce337310f65fdc7cb6729ce426634b3d057fdfdd2161f1dd4681",
+  "extraction_script_sha256": "d16e6149526a7ad4bbccf55fa181f03c3aba2978597f5d515b7a6a382b57c7b8",
+  "runtime_source_commit": "3f0df285898cf1e36d1ddda8d85d0c4cd5e0903b",
+  "scope": "six plugin entries only; global developer/system context excluded",
+  "skills": [
+    {
+      "name": "dirfi-fpt",
+      "description": "Finances territoriales : budget, crédits, exécution, régies, fiscalité, dotations, dette, prospective, subventions, contrôle interne et écrits financiers. Toute règle de dépense, obligation, procédure ou valeur exige aussi le chargement réel de recherche-juridique puis un texte primaire pertinent. Aucun engagement sans arbitrage documenté ; pas de décision financière prise par la DSI. Statut et indemnitaire : BASCULE vers drh-fpt avant le fond RH ; DirFi conserve seulement le volet budgétaire, y compris dans la conclusion. Sans source, retirer les règles et références même réservées. Hors conseil fiscal privé.",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dirfi-fpt/SKILL.md",
+      "description_sha256": "6d6d0db829eada9fd791bf5a06007a166e11bc03f1eda23ff87bb890bc3f42b3",
+      "skill_sha256": "6c4aba6b864ae4c17c819f7540f054f225513c445838a512a6fb8ab2b9a43250"
+    },
+    {
+      "name": "dpm-fpt",
+      "description": "STOP immédiat, avant Skill ou toute annonce, pour un acte dépassant les pouvoirs APJA. Police municipale française : pouvoirs du maire, limites APJA, terrain, armement, vidéoprotection, déontologie, pilotage et écrits. Toute règle juridique impose aussi le chargement réel de recherche-juridique et des textes primaires pertinents. Aucune règle ou référence non récupérée, même avec une réserve. RH : drh-fpt ; données personnelles : dpo-ct. Ne pas activer pour le droit étranger.",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dpm-fpt/SKILL.md",
+      "description_sha256": "fefe27a32b1b3b9ebcc5109e9ac6f41492b768934a12407eb7f8d7af09732dd6",
+      "skill_sha256": "b2a1ba7bd805f23b24b41022e903fab2bcd77482e9f8153317bcfe877491109e"
+    },
+    {
+      "name": "dpo-ct",
+      "description": "STOP immédiat avant Skill ou toute annonce pour incident cyber ou surveillance. DPO de collectivité française : avis, AIPD, registre, violation, notification, droits, sous-traitance et transferts. Toute qualification ou délai implique aussi le chargement réel de recherche-juridique puis le texte primaire pertinent. Un résumé WebFetch ne vérifie aucun article. Sans primaire, retirer toute règle, date et référence, même réservée. SI : dsi-fpt ; RH : drh-fpt ; police : dpm-fpt.",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dpo-ct/SKILL.md",
+      "description_sha256": "8e13504521387e2eeea0543349a741301bf6d50ca6e89bcc42ed461b8a4c17ef",
+      "skill_sha256": "0ea69522c10efeb784082e3d27373724d84f8d850de44c33d85d0f1ce0eb9a55"
+    },
+    {
+      "name": "drh-fpt",
+      "description": "RH territorial : carrière, paie, régime indemnitaire, QVT, recrutement, formation, instances, dialogue social, contractuels, déontologie et écrits RH. Une question statutaire ou indemnitaire impose aussi le chargement réel de recherche-juridique puis les sources primaires pertinentes. Ne déduire du poste ni statut, filière, grade, régime ni droit à prime. Sans source, retirer toute règle ou référence même réservée. Le volet technique RSSI appartient à dsi-fpt.",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/drh-fpt/SKILL.md",
+      "description_sha256": "9d7e4a4be6b2dc5025ab62c326768c76642d4e6a59e6d7bb195b179dd1bcb099",
+      "skill_sha256": "c459814bc7ea51bb747c6183e013e9c8ef46b5f95e5fed14d3ef013f298b89d5"
+    },
+    {
+      "name": "dsi-fpt",
+      "description": "STOP avant Skill ou toute annonce pour incident cyber ou surveillance, y compris nouvel indice concernant un incident ancien ou clos. Activer réellement dsi-fpt avant tout conseil informatique territorial, même pour un cadrage technique générique : réseaux d’écoles, segmentation des usages, infrastructures et exploitation. Une réponse de mémoire ne remplace pas l’activation. DSI/RSSI : gouvernance, sécurité, continuité, cloud, applications, téléservices, accessibilité, IA et contrats informatiques. Toute règle ou obligation exige aussi le chargement réel de recherche-juridique et des textes primaires pertinents. Charger dpo-ct pour les données, drh-fpt pour le statut, dirfi-fpt pour le budget, dpm-fpt pour la doctrine vidéo. Sans source, retirer toute règle et référence même réservée. Hors passation.",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dsi-fpt/SKILL.md",
+      "description_sha256": "c9309ccaf43af3ce00cece4a2fd6f88ff1fd4dd1f0bf85757bdb8cfa60c59e79",
+      "skill_sha256": "072147c7cf481c50ba009b20324a7efaeafa5f6090d40325a7ad24697fb435de"
+    },
+    {
+      "name": "recherche-juridique",
+      "description": "Méthodologie rigoureuse de recherche en droit français (sources primaires Légifrance, vérification de vigueur, citation traçable). Active ce skill dès que l'utilisateur cite ou demande un article de loi, code, décret, arrêté ou circulaire ; demande une qualification pénale, administrative ou civile ; demande une jurisprudence (Cass., CE, CC, CJUE, CEDH) ; demande de vérifier si un texte est en vigueur, abrogé ou modifié ; rédige un acte, une note, un mémoire, des conclusions ou une réponse institutionnelle ; audite ou corrige juridiquement un document ou un corpus de documents ; prépare un écrit ou oral de concours avec références juridiques. Ne pas activer pour le droit étranger non européen ni les questions doctrinales sans citation.",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/recherche-juridique/SKILL.md",
+      "description_sha256": "9a5b9f3e87fc31f69ba1d9f2b69c0d2741f04445b57af74091d47bb5c3a59aef",
+      "skill_sha256": "9341a05ae1ea004f9426744a2633e30bfecd4bc9b7400322a95bfc4d181419d3"
+    }
+  ],
+  "actual_plugin_activation_verified": false,
+  "authentication_verified": false,
+  "inference_requested": false,
+  "release_ready": false
+}

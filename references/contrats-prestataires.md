@@ -86,6 +86,15 @@ effets ; ne pas annoncer qu'un avenant est légalement possible sans examiner
 le régime applicable. `recherche-juridique` valide vigueur, conflit et
 jurisprudence ; les effets financiers relèvent de `dirfi-fpt`.
 
+### Attribution du fond juridique
+
+Activer effectivement `recherche-juridique` avant toute conclusion sur les
+droits, clauses opposables, frais ou obligations de restitution. Présenter
+ces conclusions sous **Analyse recherche-juridique**, avec preuve primaire
+récupérée, date et applicabilité. Une future relecture par le service juridique
+ne remplace pas ce volet. Sans preuve, ce rôle formule les points à vérifier
+et s'abstient ; la DSI poursuit seulement le diagnostic et les mesures techniques.
+
 ### Restitution et réversibilité
 
 Distinguer accès à une interface, export brut et reprise exploitable. Exiger
@@ -169,7 +178,8 @@ les dispositions effectivement vérifiées et les limites signalées.
 Relire les délais de réclamation, correction et sortie, conditions de
 pénalité, frais, préavis, durées de maintenance et calendrier des droits
 invoqués. Ne citer aucune valeur sans source datée ;
-`references/cache-valeurs.md` indique les points officiels à consulter.
+le registre livré oriente la recherche des textes primaires. Le cache de
+maintenance du dépôt source est exclu du paquet runtime et ne se charge pas.
 
 ## 10. Écrits et livrables
 

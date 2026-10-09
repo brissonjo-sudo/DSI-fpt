@@ -1,6 +1,6 @@
 ---
-version: 0.2.0
-statut: rédaction achevée, mesure à conduire
+version: 0.2.1
+statut: candidat corrigé, mesure propre et relecture requises
 ---
 
 # Index dsi-fpt

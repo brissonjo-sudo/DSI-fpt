@@ -1,0 +1,86 @@
+{
+  "analyzed_at": "2026-10-07T21:50:24.031752+00:00",
+  "scope": "explicit_literal_mention_context_construction_only",
+  "analysis_script_sha256": "f0fd18f4a1c63b3d66754526433295cf5940e9deb3ed8b032b59bc5b55789229",
+  "execution_script_sha256": "7acda61cf2ff845f1d3954e4c18a8f9c4455cc3e1c963f36a0a1259db7996d27",
+  "diagnostic_relative_directory": "smoke-dev6-isole-20261007-211629-4dc9cd90/diagnostic-explicite-20261007-214736-45f6ee78",
+  "started_at": "2026-10-07T21:47:36.2006444Z",
+  "finished_at": "2026-10-07T21:47:36.3454101Z",
+  "argv": [
+    "--cd",
+    "C:\\Users\\Krn\\Documents\\Codex\\2026-10-06\\reprends-le-travail-de-cette-session\\smoke-dev6-isole-20261007-211629-4dc9cd90",
+    "debug",
+    "prompt-input",
+    "$collectivite-territoriale:dsi-fpt"
+  ],
+  "attempts": 1,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout_bytes": 17132,
+  "stderr_bytes": 0,
+  "stdout_sha256": "19b9a473edfe142602df6d6d5cf3e241ed19ca5a3420c91c7dbeed02adfd8ea8",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "execution_receipt_sha256": "5fcc4a9bd148c2a70d2e55d9bfc61397817585d490fff16b8f065e24db501a6f",
+  "candidate_commit": "3f0df285898cf1e36d1ddda8d85d0c4cd5e0903b",
+  "candidate_cache_and_config_unchanged": true,
+  "unchanged_files_checked": 427,
+  "json_complete_parse_passed": true,
+  "message_count": 5,
+  "literal_user_marker_positions": [
+    {
+      "message_index": 4,
+      "content_index": 0,
+      "text_chars": 34
+    }
+  ],
+  "metadata_discovery_verified": true,
+  "catalogue_skills": [
+    {
+      "name": "collectivite-territoriale:dirfi-fpt",
+      "aliased_path": "r1/dirfi-fpt/SKILL.md"
+    },
+    {
+      "name": "collectivite-territoriale:dpm-fpt",
+      "aliased_path": "r1/dpm-fpt/SKILL.md"
+    },
+    {
+      "name": "collectivite-territoriale:dpo-ct",
+      "aliased_path": "r1/dpo-ct/SKILL.md"
+    },
+    {
+      "name": "collectivite-territoriale:drh-fpt",
+      "aliased_path": "r1/drh-fpt/SKILL.md"
+    },
+    {
+      "name": "collectivite-territoriale:dsi-fpt",
+      "aliased_path": "r1/dsi-fpt/SKILL.md"
+    },
+    {
+      "name": "collectivite-territoriale:recherche-juridique",
+      "aliased_path": "r1/recherche-juridique/SKILL.md"
+    }
+  ],
+  "catalogue_root_alias_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills",
+  "dsi_candidate_cache_bytes_equal": true,
+  "dsi_skill_bytes": 36215,
+  "dsi_skill_sha256": "072147c7cf481c50ba009b20324a7efaeafa5f6090d40325a7ad24697fb435de",
+  "full_skill_byte_matches": [],
+  "skill_wrapper_positions": [],
+  "full_skill_context_injection_verified": false,
+  "explicit_skill_selection_verified": false,
+  "actual_plugin_activation_verified": false,
+  "model_inference_requested": false,
+  "model_usage_verified": false,
+  "spontaneous_selection_verified": false,
+  "login_requested": false,
+  "authentication_current_state_not_read": true,
+  "network_offline_guarantee": false,
+  "human_validation": false,
+  "raw_developer_context_published": false,
+  "release_ready": false,
+  "sources": [
+    "https://learn.chatgpt.com/docs/build-skills",
+    "https://learn.chatgpt.com/docs/developer-commands",
+    "https://learn.chatgpt.com/docs/app-server"
+  ]
+}

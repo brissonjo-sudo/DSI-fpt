@@ -101,7 +101,7 @@ MONTHS = (
 VALUE_PATTERNS = {
     "montant": re.compile(r"\d[\d  .,]*\s?(?:€|euros?\b|k€|M€)", re.IGNORECASE),
     "délai chiffré": re.compile(
-        r"\b\d+\s?(?:h\b|heures?|jours?|semaines?|mois|ans?\b|années?)", re.IGNORECASE
+        r"\b\d+\s?(?:h\b|heures?\b|jours?\b|semaines?\b|mois\b|ans?\b|années?\b)", re.IGNORECASE
     ),
     "date": re.compile(rf"\b\d{{1,2}}(?:er)?\s+(?:{MONTHS})\s+\d{{4}}\b", re.IGNORECASE),
     "version de référentiel": re.compile(

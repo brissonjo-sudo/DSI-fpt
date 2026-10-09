@@ -38,6 +38,10 @@ du décideur vérifiés → note de décision et portefeuille priorisé`.
 `numérique responsable → périmètre matériel, applicatif et usages → actions
 mesurables → applicabilité de l'obligation vérifiée → feuille de route`.
 
+Un intitulé RSSI ne détermine ni filière, ni cadre d'emplois, ni titularité.
+Pour une demande RH, transmettre les faits connus à `drh-fpt` et laisser
+explicitement inconnus le statut et les critères non fournis.
+
 ## 4. Variables à lever
 
 - Mode d'exercice : internalisé, mutualisé ou externalisé ; compétence
@@ -162,8 +166,9 @@ restent à confirmer en version consolidée pour la décision.
 
 Vérifier à la source la population retenue, les catégories visées, les seuils,
 le calendrier, le décret d'application, les pouvoirs du signataire et les
-dispositions de la convention. Utiliser `references/cache-valeurs.md` comme
-carte des points à relire, sans reprendre ses valeurs.
+dispositions de la convention. Le registre livré oriente ces vérifications.
+Le cache de maintenance du dépôt source est hors du paquet runtime : ne pas
+le charger ni reprendre ses valeurs.
 
 ## 10. Écrits et livrables
 

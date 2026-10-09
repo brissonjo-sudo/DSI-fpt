@@ -12,6 +12,19 @@ la première version mesurée au seuil.
 
 ---
 
+## [0.2.1] — 2026-10-06 — candidat corrigé, qualification ouverte
+
+- Réconciliation des brouillons sécurité et cloud avec le socle complet.
+- STOP dès le premier texte visible ; activation effective de la recherche
+  juridique et abstention sans texte primaire récupéré.
+- DPO consulté avant validation des mesures ; responsabilités et preuves
+  demandées en mutualisation ou externalisation.
+- Réversibilité : contrôle métier de la cible et retour arrière avant clôture.
+- Correction du faux délai détecté dans un titre de journalisation.
+- Aucun score antérieur transféré ; relecture praticien toujours requise.
+- Retrait des renvois d'exécution vers le cache de maintenance exclu du
+  paquet ; distinction explicite entre registre livré et maintenance source.
+
 ## [0.2.0] — 2026-10-05 — rédaction achevée, non mesurée
 
 ### Ajouté

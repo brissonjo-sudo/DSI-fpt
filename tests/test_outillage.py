@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -99,6 +100,32 @@ class Packaging(unittest.TestCase):
             package_skill.write_package(second)
             self.assertEqual(hashlib.sha256(first.read_bytes()).digest(),
                              hashlib.sha256(second.read_bytes()).digest())
+
+
+class ValeursInterdites(unittest.TestCase):
+    """Vérifie le diagnostic du validateur sur de véritables fichiers runtime."""
+
+    def inspecter(self, texte: str) -> list[str]:
+        """Évalue un runtime minimal isolé et retourne les erreurs bloquantes."""
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "references").mkdir()
+            (root / "references" / "securite-si.md").write_text(
+                texte, encoding="utf-8")
+            validation = validate_repo.Validation()
+            with patch.object(validate_repo, "ROOT", root):
+                validate_repo.validate_forbidden_content(validation)
+            return validation.errors
+
+    def test_titre_journalisation_ne_declenche_pas_un_delai(self) -> None:
+        self.assertEqual(self.inspecter("### 5.9 Journalisation\n"), [])
+
+    def test_delais_reels_restent_bloquants(self) -> None:
+        for value in ("72 heures", "9 jours", "1 jour", "2 semaines",
+                      "12 mois", "2 ans", "1 année", "3 h"):
+            with self.subTest(value=value):
+                self.assertTrue(any("délai chiffré" in error
+                                    for error in self.inspecter(value)))
 
 
 if __name__ == "__main__":

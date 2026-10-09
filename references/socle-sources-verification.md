@@ -5,7 +5,9 @@
 > motivée) relève de `recherche-juridique`. Ce fichier ne la réécrit pas : il
 > fournit la **carte des sources propres au numérique des collectivités
 > territoriales** et les réflexes du métier. Les identifiants vérifiés sont
-> dans `references-verifiees.md`, les valeurs datées dans `cache-valeurs.md`.
+> dans `references-verifiees.md`. Le cache de maintenance des valeurs est
+> conservé uniquement dans le dépôt source, exclu du paquet runtime : ne pas
+> tenter de le charger depuis ce paquet. Revenir aux textes primaires en session.
 
 ---
 
@@ -15,10 +17,10 @@ Du plus fort au plus faible. En cas de contradiction, le rang supérieur
 l'emporte ; le règlement des conflits relève de `recherche-juridique` (§7).
 
 1. **Constitution** — dont la libre administration des collectivités.
-2. **Droit de l'Union européenne** — distinguer le **règlement**, directement
-   applicable (intelligence artificielle, Data Act, identification
-   électronique), de la **directive**, qui passe par une loi française de
-   transposition (NIS2, accessibilité des sites publics).
+2. **Droit de l'Union européenne** — vérifier la forme du texte invoqué,
+   les dispositions applicables, les éventuelles mesures nationales et leur
+   état à la date de la demande. Sans récupération primaire, ne pas expliquer
+   les effets juridiques d'un règlement ou d'une directive.
 3. **Lois** — CRPA, code pénal, code de la commande publique, CGCT, loi de 2005
    sur l'égalité des droits et des chances, lois sur le numérique.
 4. **Ordonnances** — dont celle sur les échanges électroniques, qui fonde le
@@ -55,8 +57,10 @@ d'offres, une réponse d'IA antérieure, une note interne non datée.
 
 ## 3. Noyau minimal embarqué
 
-Les textes structurants, cités **sans leurs valeurs** et avec la réserve
-d'usage. Leur identification précise relève de `references-verifiees.md`.
+Les textes structurants ci-dessous sont des **pistes de recherche**, sans
+preuve actuelle de contenu ou de vigueur. Leur identification historique
+relève de `references-verifiees.md` ; vérifier le texte primaire en session
+avant toute conclusion. Aucun statut du tableau ne dispense de ce contrôle.
 
 | Objet | Texte de rattachement | Statut |
 |---|---|---|
@@ -107,23 +111,31 @@ d'usage. Leur identification précise relève de `references-verifiees.md`.
 
 Montants de sanction, seuils de population ou d'effectif, délais, dates
 d'application, versions de référentiels. Elles se vérifient **à la source en
-session** et se citent avec la date de lecture. `cache-valeurs.md` dit
-**quoi vérifier et où** ; il ne se recopie pas.
+session** et se citent avec la date de lecture. Le registre livré fournit
+des pistes historiques à vérifier, sans valeur juridique actuelle présumée.
+Le cache de maintenance reste hors runtime ; ni sa lecture ni sa copie
+ne sont une étape d'exécution du paquet.
 
-### Références structurelles stables — citables sous réserve
+### Références structurelles stables — pistes à vérifier
 
-Codes, ordonnances et décrets fondateurs : citables par leur objet avec la
-réserve « à confirmer en version consolidée ».
+Codes, ordonnances et décrets fondateurs : pistes de recherche par leur objet.
+Une référence du registre ou la réserve « à confirmer en version consolidée »
+ne permet pas d'en affirmer le contenu, la vigueur ou l'applicabilité sans
+texte primaire effectivement récupéré dans la session. Cette règle prévaut
+sur les exemples et tables internes, qui ne constituent pas une preuve actuelle.
 
 ### Ce que l'on peut toujours donner
 
-La règle, la méthode, la répartition des rôles, les questions à poser, la
-liste de ce qu'il faut vérifier et où.
+La méthode technique, les rôles à faire confirmer, les questions à poser,
+la liste de ce qu'il faut vérifier et où. Sans preuve primaire, aucune règle
+de droit, même en incise ou pour écarter un texte.
 
 ---
 
 ## 6. Quand appeler `recherche-juridique`
 
+- toute question marquée « Oui » par la matrice de `SKILL.md` §2.2,
+  avant de conclure et même lorsque le fond relève d'un skill délégataire ;
 - vigueur d'un texte, version applicable à une date passée ;
 - conflit entre deux normes, effet d'une directive non transposée ;
 - jurisprudence ;
@@ -143,10 +155,11 @@ normes et la jurisprudence.
 
 - Un identifiant officiel (Légifrance, CELEX) ne figure que dans
   `references-verifiees.md`, avec sa date de vérification.
-- Une réponse peut citer un identifiant **seulement** s'il y figure, ou s'il
-  a été lu en session sur la source officielle, en le disant.
-- Un identifiant ne se reconstitue jamais de mémoire. À défaut : citer le
-  texte par son objet, avec la réserve d'usage.
+- Une réponse peut citer un identifiant **seulement** si le texte primaire
+  correspondant a été récupéré en session, avec date et champ vérifiés.
+  La présence dans le registre ne remplace pas cette récupération.
+- Un identifiant ne se reconstitue jamais de mémoire. À défaut : retirer
+  l'identifiant et la conclusion, préciser le texte à rechercher par son objet.
 
 ---
 

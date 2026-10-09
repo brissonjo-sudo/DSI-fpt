@@ -1,0 +1,23 @@
+{
+  "archive_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/livrables/Preuves-coactivation-Codex-dev6-PARTIEL-2026-10-07.zip",
+  "archive_sha256": "b600c616f3d251c19a15ab68a3055cdecf150fa251e13c2c6bad67c6a3eb5bd7",
+  "entry_count": 841,
+  "scope": "PARTIEL",
+  "candidate_commit": "1a12b347448809864ba6d14d5501585a4a038206",
+  "runtime_source_commit": "3f0df285898cf1e36d1ddda8d85d0c4cd5e0903b",
+  "prepared_cases": 16,
+  "executed_cases": 6,
+  "bound_cases": 5,
+  "judged_cases": 5,
+  "effectively_judged_atoms": 41,
+  "rejected_protocol_cases": 1,
+  "not_executed_cases": 10,
+  "counts_bound_only": {
+    "reussite": 1,
+    "echec": 1,
+    "bloque": 3
+  },
+  "native_audit_sha256": "0e095d3bab6d71ea499a45d66b1e390902993fd33eb2245dc386046b5c08eea4",
+  "release_ready": false,
+  "full_suite_complete": false
+}

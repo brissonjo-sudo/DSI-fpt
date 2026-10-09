@@ -1,7 +1,8 @@
 # dsi-fpt — Direction des systèmes d'information en collectivité territoriale
 
-> **Statut : version de travail v0.2.0, non mesurée.** Rédaction et outillage
-> achevés ; publication suspendue à la mesure et à la relecture DSI/RSSI.
+> **Statut : candidat corrigé v0.2.1 à mesurer.** Les campagnes précédentes
+> ne qualifient pas ce runtime ; publication suspendue à sa mesure et à la
+> relecture DSI/RSSI.
 > Le cadrage est dans `docs/cadrage.md`, la décision
 > d'architecture dans `docs/adr/0001-adoption-patron-dirfi-fpt.md`.
 

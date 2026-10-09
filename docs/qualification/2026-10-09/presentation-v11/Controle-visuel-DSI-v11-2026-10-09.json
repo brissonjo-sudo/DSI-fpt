@@ -1,0 +1,182 @@
+{
+  "created_at": "2026-10-09T09:43:37.545895+00:00",
+  "presentation_sha256": "4fb06d64434f55a55e6e4c5c6cab6f9a340ca6b5c7a9ed006bb0b04df2c23c55",
+  "source_v10_sha256": "30c3fbc847f3442f3df269a3bca5fbaaf68aa0be7c99cd8e1e04efd2bdf3488c",
+  "source_v10_preserved": true,
+  "slides_visually_inspected_at_full_size": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "changed_slides": [
+    1,
+    9,
+    11
+  ],
+  "visual_inspection": "Onze rendus PNG Artifact Tool inspectés individuellement à pleine taille. Aucun chevauchement ni texte coupé observé. Slides 1, 9 et 11 comparées avec la v10.",
+  "unchanged_slides_compared": {
+    "2": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-2.png"
+    },
+    "3": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-3.png"
+    },
+    "4": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-4.png"
+    },
+    "5": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-5.png"
+    },
+    "6": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-6.png"
+    },
+    "7": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-7.png"
+    },
+    "8": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-8.png"
+    },
+    "10": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build-v10/previews/slide-10.png"
+    }
+  },
+  "unchanged_native_tables": {
+    "3": {
+      "xml_identical": true
+    },
+    "6": {
+      "xml_identical": true
+    },
+    "8": {
+      "xml_identical": true
+    }
+  },
+  "original_chart_and_workbook_identical": {
+    "ppt/slides/charts/chart1.xml": {
+      "byte_identical": true,
+      "sha256": "f35e245be099a76ef988b59d4b53ab81479d590b2ba480cc87d440ca8c58c9c6"
+    },
+    "ppt/slides/charts/_rels/chart1.xml.rels": {
+      "byte_identical": true,
+      "sha256": "08d9a730b9d55a57141192c8ffdf07d56687ac3b98e8afe58707157f5369d5af"
+    },
+    "ppt/embeddings/chart-data-snapshot-001.xlsx": {
+      "byte_identical": true,
+      "sha256": "9dfa3629986ab6a639c30b584ddc85fe2896957c8e45d1ae9cd1f145c6e79121"
+    }
+  },
+  "historical_notes_preserved_and_updated": {
+    "1": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "2": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "3": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "4": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "5": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "6": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "7": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "8": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "9": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "10": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    },
+    "11": {
+      "source_v10_notes_preserved": true,
+      "dated_connection_update_appended": true
+    }
+  },
+  "editable_native_table_owner_slides": [
+    3,
+    6,
+    8,
+    11
+  ],
+  "editable_native_chart_owner_slides": [
+    4
+  ],
+  "font": "Arial",
+  "source_evidence": [
+    {
+      "path": "constat-connexion-dev7-20261009-093801-0a83c60e/constat-assaini.json",
+      "sha256": "fae8a90a86039a313bd32691081aa6c5e5092b0150bba3d9741c97cd319615c6"
+    },
+    {
+      "path": "diagnostic-reprise-dev7-20261009-v2/diagnostic-assaini.json",
+      "sha256": "b5b681e728b05ae752164252d19d26d2fe26b64a897eb90457b257df7516c697"
+    },
+    {
+      "path": "bilan-dev7-r3-verifie-20261008.json",
+      "sha256": "932e89e32a0ff4afba43241087df39de70f2788750a12930d7d2a725d4a21ee6"
+    }
+  ],
+  "data_file": "livrables/Donnees-presentation-DSI-v11-2026-10-09.json",
+  "data_sha256": "cd205029f2de9ec47a0e762a1f2664b381699c73303ad323fd4b93a1f094bf36",
+  "preview_sha256": "0cc2277ecef8f1b64e6207145dc5446e1fce0b0a5e40a0b0e3780f6063f60095",
+  "presentation_control_sha256": "35ddeda84179be3d6dc72c52ae1e6b13a102d5c77af8018ce1c4f6d1b87e3fb0",
+  "partial_measurement_unchanged": true,
+  "current_oauth_success": true,
+  "legal_tool_count": 8,
+  "native_primary_source_read_observed": true,
+  "full_source_coverage_verified": false,
+  "legal_currentness_independently_reviewed": false,
+  "windows_precheck_status": "blocked",
+  "new_respondents": 0,
+  "new_judges": 0,
+  "new_campaign_prepared": false,
+  "new_campaign_measured": false,
+  "cold_launcher_fix_verified": false,
+  "app_open_fix_verified": false,
+  "critical_stop_reopening_tested": false,
+  "native_powerpoint_open_verified": false,
+  "human_dsi_review_received": false,
+  "legal_review_received": false,
+  "release_ready": false,
+  "marker_invocations": 1,
+  "package_integrity_status": "pass",
+  "layout_findings": 0,
+  "layout_warnings": 0,
+  "local_original_receipt_sha256": "93119b7b5e158543d6f04b0a21b318108368c52cd09bdbb2a1acf6a57d185650",
+  "local_paths_replaced_in_public_derivative": true
+}
