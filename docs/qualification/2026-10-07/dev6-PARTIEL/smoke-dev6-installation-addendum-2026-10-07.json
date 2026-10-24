@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-07T21:17:50.978388+00:00",
+  "scope": "readonly_installed_cache_hash_verification",
+  "executed_by": "root_agent",
+  "installation_created_at": "2026-10-07T21:16:32.0054687Z",
+  "candidate_commit": "3f0df285898cf1e36d1ddda8d85d0c4cd5e0903b",
+  "manifest_version": "1.2.0-dev.6",
+  "prepared_directory": "smoke-dev6-isole-20261007-211620-b4812d9e",
+  "installed_directory": "smoke-dev6-isole-20261007-211629-4dc9cd90",
+  "files_checked_independently": 214,
+  "runtime_files_checked_independently": 166,
+  "all_installed_hashes_match_preparation": true,
+  "failed_paths": [],
+  "sha256": {
+    "smoke-dev6-isole.ps1": "6d403f29e984b8e0f74a5f3b925df3b8a50587f97027c4e72d46528743d1b696",
+    "smoke-dev6-isole-20261007-211620-b4812d9e/preparation.json": "6867262e5ab34a3611965f9026ad612e75315b1e27ee55ce536c0d6aa3b17207",
+    "smoke-dev6-isole-20261007-211629-4dc9cd90/preparation.json": "ffda3882d0a68e471727a88e79a4175d59ca9c90679c4ee494cc87d541209b22",
+    "smoke-dev6-isole-20261007-211629-4dc9cd90/installation.json": "a3745bb385dae50b6f131a5ad3adafbd7200dc30568f5df011c8ad723ed8d8a3",
+    "smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/config.toml": "b4ab3a160d50df5792f937403a4cfde881a1929f2c3d2c0f3216a6ad0cf9a3b6",
+    "smoke-dev6-isole-20261007-211629-4dc9cd90/.agents/plugins/marketplace.json": "a00a8af01320077b7fc921d04f80f84e78ffed0c2ae486fc234a9d6a4a334c96"
+  },
+  "plugin_enabled_in_isolated_config": true,
+  "effective_plugin_list_checked_by_root_execution": true,
+  "effective_plugin_list_raw_json_retained_in_installation_receipt": false,
+  "mcp_configured_disabled": true,
+  "mcp_actual_exposure_verified": false,
+  "actual_plugin_activation_verified": false,
+  "authentication_verified": false,
+  "inference_launched": false,
+  "debug_prompt_input_executed": false,
+  "release_ready": false
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "launcher_local_correction_no_inference",
+  "old_executable_missing": true,
+  "old_script_sha256": "37137bdb994908692b328e0fcd0992925e7df987c796985fe3f3b159257f029f",
+  "corrected_script_sha256": "0834410c14b9369a028e035e081777d15333099fad730f6f5fd9e0136c4ef968",
+  "observed_cli": "0.162.0-alpha.2",
+  "observed_executable_directory": "9691020b546a15b2",
+  "checks": [
+    {"kind": "powershell_current", "checked_at": "2026-10-08T10:11:10.2732403Z", "process_started": true, "status": "not_logged_in", "exit_code": 1},
+    {"kind": "windows_powershell", "checked_at": "2026-10-08T10:11:10.5008063Z", "process_started": true, "status": "not_logged_in", "exit_code": 1},
+    {"kind": "fallback_without_codex_in_path", "checked_at": "2026-10-08T10:11:42.2613959Z", "process_started": true, "status": "not_logged_in", "exit_code": 1}
+  ],
+  "interactive_login_started": false,
+  "inference_requested": false,
+  "global_auth_copied": false,
+  "historical_proofs_modified": false,
+  "release_ready": false
+}

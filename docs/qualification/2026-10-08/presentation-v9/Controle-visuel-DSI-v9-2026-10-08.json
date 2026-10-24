@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-10-08T21:38:29.175346+00:00",
+  "presentation_sha256": "27699e60c3c34452446b5ee850e03fe00859e9f2d5b27498a996bd74c4ee2c55",
+  "source_v8_sha256": "2c52b852ba1f0fa975c6e256f2faac2e568c63fc40e42e0cd7d3e94c1654504b",
+  "source_v7_sha256": "9d5d672e68376b67064d197aae147b6724bfeb8e44461788dfbe0e57b70c369a",
+  "source_v7_preserved": true,
+  "source_v8_preserved": true,
+  "slides_visually_inspected_at_full_size": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "changed_slides": [
+    1,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "visual_inspection": "Rendus PNG Artifact Tool inspectés individuellement à pleine taille. Aucun texte coupé ou chevauchement observé. Comparaison avec la v8 effectuée.",
+  "unchanged_slides_compared": {
+    "2": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v8\\slide-2.png"
+    },
+    "3": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v8\\slide-3.png"
+    },
+    "4": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v8\\slide-4.png"
+    },
+    "5": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v8\\slide-5.png"
+    },
+    "10": {
+      "pixel_identical": true,
+      "source_render": ".presentation-build\\previews-v8\\slide-10.png"
+    }
+  },
+  "original_chart_and_workbook_identical": {
+    "ppt/slides/charts/chart1.xml": {
+      "byte_identical": true,
+      "sha256": "f35e245be099a76ef988b59d4b53ab81479d590b2ba480cc87d440ca8c58c9c6"
+    },
+    "ppt/slides/charts/_rels/chart1.xml.rels": {
+      "byte_identical": true,
+      "sha256": "08d9a730b9d55a57141192c8ffdf07d56687ac3b98e8afe58707157f5369d5af"
+    },
+    "ppt/embeddings/chart-data-snapshot-001.xlsx": {
+      "byte_identical": true,
+      "sha256": "9dfa3629986ab6a639c30b584ddc85fe2896957c8e45d1ae9cd1f145c6e79121"
+    }
+  },
+  "editable_native_table_owner_slides": [
+    3,
+    6,
+    8,
+    11
+  ],
+  "editable_native_chart_owner_slides": [
+    4
+  ],
+  "validated_cases": {
+    "plugin-mcp-indisponible": [
+      "reussite",
+      {
+        "true": 5,
+        "false": 0,
+        "null": 0
+      }
+    ],
+    "plugin-dsi-technique": [
+      "echec",
+      {
+        "true": 3,
+        "false": 1,
+        "null": 6
+      }
+    ],
+    "plugin-dsi-source-indisponible": [
+      "reussite",
+      {
+        "true": 8,
+        "false": 0,
+        "null": 0
+      }
+    ]
+  },
+  "atom_totals": {
+    "true": 16,
+    "false": 1,
+    "null": 6
+  },
+  "blocked_preflight": 13,
+  "critical_stop_reopening_tested": false,
+  "native_powerpoint_open_verified": false,
+  "human_dsi_review_received": false,
+  "legal_review_received": false,
+  "release_ready": false,
+  "marker_invocations": 1,
+  "finalization_retry_reason": "EPERM fs.realpath en sandbox puis variable RUNTIME_NODE_MODULES requise. Reprise de finalisation seule avec runtime documenté et escalade autorisée. Aucun refus auto-review.",
+  "package_integrity_status": "pass",
+  "layout_findings": 0,
+  "layout_warnings": 0,
+  "local_original_receipt_sha256": "3b8bfbf338c3499273b88830c4b6123287154fe12759299355570affc89a32ca",
+  "local_paths_replaced_in_public_derivative": true
+}

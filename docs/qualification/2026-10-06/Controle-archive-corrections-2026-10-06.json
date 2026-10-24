@@ -1,0 +1,265 @@
+{
+  "archive_sha256": "ed7c9532790124d976187ffe82a17cadfcb585f84d25f3d785a24b36a6989e75",
+  "offline_relocated_verification": {
+    "archive_integrity": "passed",
+    "native_cases": 28,
+    "native_fresh_sessions": 56,
+    "coactivation_attempts": 16,
+    "coactivation_completed_responses": 1,
+    "coactivation_fresh_judges": 1,
+    "quota_interrupted_cases": [
+      "plugin-dsi-budget",
+      "plugin-dsi-incident-donnees",
+      "plugin-dsi-reouverture",
+      "plugin-dsi-reversibilite",
+      "plugin-dsi-rssi-rh",
+      "plugin-dsi-source-indisponible",
+      "plugin-dsi-technique",
+      "plugin-dsi-videoprotection",
+      "plugin-mcp-indisponible",
+      "plugin-prime-depart-retraite",
+      "plugin-spontane-budget",
+      "plugin-spontane-incident-donnees",
+      "plugin-spontane-reversibilite",
+      "plugin-spontane-rssi-rh",
+      "plugin-violation-donnees"
+    ],
+    "behavioral_campaign_complete": false,
+    "judge_identity_checked": true,
+    "judge_identity_scope": "Réponses achevées seulement ; aucun jugement déduit des refus de quota.",
+    "initial_message_verified": false,
+    "question_file_read_verified": true,
+    "question_input_verification": [
+      {
+        "case_id": "cas-01",
+        "session_id": "01a112e7-f263-7770-ba4a-e25b6aac3fd2",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-02",
+        "session_id": "01a112e8-30c6-75d3-914a-822e87dc7ff5",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-03",
+        "session_id": "01a112e9-86fa-75e3-b3e9-839b4a0c6b7c",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-04",
+        "session_id": "01a112ea-2745-7df2-a424-1ae6df6afacc",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-05",
+        "session_id": "01a112eb-1244-7702-ae09-de6b7b2cddd1",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-06",
+        "session_id": "01a112eb-c095-7a73-952a-7eecf63685f6",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-07",
+        "session_id": "01a112ec-b2a9-7060-94c5-ad504b5f6939",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-08",
+        "session_id": "01a112ed-6a29-7290-a153-79c22a12e6f2",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-09",
+        "session_id": "01a112ee-12a4-7f72-9460-dd10a026fe14",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-10",
+        "session_id": "01a112ee-ca7e-7432-971e-3900c8bdf3e4",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-11",
+        "session_id": "01a112f0-18bd-7fb1-9533-60ed9b43deb8",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-12",
+        "session_id": "01a112f0-b87f-7601-abaf-275e2228f462",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-13",
+        "session_id": "01a112f1-c487-7e21-8b80-82c6389081bf",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-14",
+        "session_id": "01a112f4-7729-7e91-a72b-62b5d08b329d",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-15",
+        "session_id": "01a112f5-ed88-7481-997e-18cdee4381f3",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-16",
+        "session_id": "01a112f7-ad78-7363-8c6e-775afe9f1c63",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-17",
+        "session_id": "01a112f9-9728-73b2-8453-3b45157b0a49",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-18",
+        "session_id": "01a112fb-8eb7-7fe2-91c4-a146fb79910a",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-19",
+        "session_id": "01a112fd-5dda-79e3-9053-d950edd170a6",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-20",
+        "session_id": "01a112ff-b015-7d31-ada1-bb206f2067ba",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-21",
+        "session_id": "01a11301-5e1b-7b61-bd35-b4ac8a75b3d5",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-22",
+        "session_id": "01a11303-1a0a-7912-a3d3-c226a5e5bc8c",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-23",
+        "session_id": "01a11305-4afc-7c12-9712-380a8547edb2",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-24",
+        "session_id": "01a11306-9bbf-7f23-a583-b224998e7835",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-25",
+        "session_id": "01a11307-906e-7a41-a1da-7959908e9835",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-26",
+        "session_id": "01a11308-d1b5-7003-bc1b-6cba08d06a3e",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-27",
+        "session_id": "01a1130a-2a91-77a1-89c9-fe45ac59bb3b",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      },
+      {
+        "case_id": "cas-28",
+        "session_id": "01a1130a-fdc2-7da1-9ab7-9f5326c8a536",
+        "frozen_prompt_verified": true,
+        "initial_message_verified": false,
+        "question_file_read_verified": true,
+        "reason": "Message initial non exporté ; son texte n’est pas attesté. Lecture native du prompt complet après SKILL.md attestée."
+      }
+    ],
+    "independence_scope": "Identités, spawns sans historique, tâche unique et outils capturés contrôlés ; texte de la question native seulement si démontré séparément.",
+    "source_scope": "traces assainies; aucune validation humaine déduite",
+    "release_ready": false
+  },
+  "tamper_rejected": true,
+  "tamper_error": "ValueError: Octets archivés divergents : qualification-dsi-0.2.1-native-r2/cas-01/response.md",
+  "release_ready": false
+}

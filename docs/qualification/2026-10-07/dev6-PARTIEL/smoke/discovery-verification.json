@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-07T21:22:38.290927+00:00",
+  "status": "passed",
+  "scope": "native_cli_prompt_construction_without_inference",
+  "runtime_source_commit": "3f0df285898cf1e36d1ddda8d85d0c4cd5e0903b",
+  "stdout_sha256": "4ebce008ecc8ce337310f65fdc7cb6729ce426634b3d057fdfdd2161f1dd4681",
+  "execution_receipt_sha256": "dfdde14fd8d316004bba438355cb4cb0ea294265c1fb0dc4ac33765a99576ae0",
+  "controller_sha256": "474b92d49df24f5b891f3d71919c321dad5a76df2a4e006cabaea6b27c5a5f4f",
+  "skills": [
+    {
+      "name": "dirfi-fpt",
+      "description_characters": 617,
+      "description_sha256": "6d6d0db829eada9fd791bf5a06007a166e11bc03f1eda23ff87bb890bc3f42b3",
+      "skill_sha256": "6c4aba6b864ae4c17c819f7540f054f225513c445838a512a6fb8ab2b9a43250",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dirfi-fpt/SKILL.md"
+    },
+    {
+      "name": "dpm-fpt",
+      "description_characters": 480,
+      "description_sha256": "fefe27a32b1b3b9ebcc5109e9ac6f41492b768934a12407eb7f8d7af09732dd6",
+      "skill_sha256": "b2a1ba7bd805f23b24b41022e903fab2bcd77482e9f8153317bcfe877491109e",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dpm-fpt/SKILL.md"
+    },
+    {
+      "name": "dpo-ct",
+      "description_characters": 479,
+      "description_sha256": "8e13504521387e2eeea0543349a741301bf6d50ca6e89bcc42ed461b8a4c17ef",
+      "skill_sha256": "0ea69522c10efeb784082e3d27373724d84f8d850de44c33d85d0f1ce0eb9a55",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dpo-ct/SKILL.md"
+    },
+    {
+      "name": "drh-fpt",
+      "description_characters": 464,
+      "description_sha256": "9d7e4a4be6b2dc5025ab62c326768c76642d4e6a59e6d7bb195b179dd1bcb099",
+      "skill_sha256": "c459814bc7ea51bb747c6183e013e9c8ef46b5f95e5fed14d3ef013f298b89d5",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/drh-fpt/SKILL.md"
+    },
+    {
+      "name": "dsi-fpt",
+      "description_characters": 811,
+      "description_sha256": "c9309ccaf43af3ce00cece4a2fd6f88ff1fd4dd1f0bf85757bdb8cfa60c59e79",
+      "skill_sha256": "072147c7cf481c50ba009b20324a7efaeafa5f6090d40325a7ad24697fb435de",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/dsi-fpt/SKILL.md"
+    },
+    {
+      "name": "recherche-juridique",
+      "description_characters": 745,
+      "description_sha256": "9a5b9f3e87fc31f69ba1d9f2b69c0d2741f04445b57af74091d47bb5c3a59aef",
+      "skill_sha256": "9341a05ae1ea004f9426744a2633e30bfecd4bc9b7400322a95bfc4d181419d3",
+      "installed_path": "C:/Users/Krn/Documents/Codex/2026-10-06/reprends-le-travail-de-cette-session/smoke-dev6-isole-20261007-211629-4dc9cd90/codex-state/plugins/cache/smoke-dev6/collectivite-territoriale/1.2.0-dev.6/skills/recherche-juridique/SKILL.md"
+    }
+  ],
+  "plugin_skill_count": 6,
+  "total_catalogue_skill_count": 10,
+  "actual_plugin_activation_verified": false,
+  "model_response_observed": false,
+  "inference_requested": false,
+  "authentication_tested": false,
+  "mcp_actual_exposure_verified": false,
+  "network_activity_measured": false,
+  "release_ready": false
+}

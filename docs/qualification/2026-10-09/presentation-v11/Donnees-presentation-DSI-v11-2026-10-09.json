@@ -1,0 +1,138 @@
+{
+  "schema_version": "dsi-presentation-v11-data-v1",
+  "created_at": "2026-10-09T09:40:55.086Z",
+  "presentation_date": "2026-10-09",
+  "source_v10": {
+    "path": "livrables/Presentation-DSI-corrections-2026-10-09-v10.pptx",
+    "sha256": "30c3fbc847f3442f3df269a3bca5fbaaf68aa0be7c99cd8e1e04efd2bdf3488c"
+  },
+  "source_evidence": [
+    {
+      "path": "constat-connexion-dev7-20261009-093801-0a83c60e/constat-assaini.json",
+      "sha256": "fae8a90a86039a313bd32691081aa6c5e5092b0150bba3d9741c97cd319615c6"
+    },
+    {
+      "path": "diagnostic-reprise-dev7-20261009-v2/diagnostic-assaini.json",
+      "sha256": "b5b681e728b05ae752164252d19d26d2fe26b64a897eb90457b257df7516c697"
+    },
+    {
+      "path": "bilan-dev7-r3-verifie-20261008.json",
+      "sha256": "932e89e32a0ff4afba43241087df39de70f2788750a12930d7d2a725d4a21ee6"
+    }
+  ],
+  "candidate_commit": "fb186b4951b95adabf05904f8a34995720588be3",
+  "changed_slides": [
+    1,
+    9,
+    11
+  ],
+  "measured_partial": {
+    "executed_cases": 3,
+    "suite_cases": 16,
+    "blocked_preflight_historical": 13,
+    "eligible_atoms": 23,
+    "verdict_totals": {
+      "reussite": 2,
+      "echec": 1,
+      "bloque": 0
+    },
+    "atom_totals": {
+      "true": 16,
+      "false": 1,
+      "null": 6
+    },
+    "cases": [
+      {
+        "case_id": "plugin-mcp-indisponible",
+        "verdict": "reussite",
+        "atoms": {
+          "true": 5,
+          "false": 0,
+          "null": 0
+        }
+      },
+      {
+        "case_id": "plugin-dsi-technique",
+        "verdict": "echec",
+        "atoms": {
+          "true": 3,
+          "false": 1,
+          "null": 6
+        }
+      },
+      {
+        "case_id": "plugin-dsi-source-indisponible",
+        "verdict": "reussite",
+        "atoms": {
+          "true": 8,
+          "false": 0,
+          "null": 0
+        }
+      }
+    ]
+  },
+  "current_status": {
+    "observed_at": "2026-10-09T09:38:01.959947+00:00",
+    "oauth_completed_at": "2026-10-09T09:25:09.939285+00:00",
+    "oauth_success": true,
+    "mcp_auth_status": "oAuth",
+    "legal_tool_count": 8,
+    "source_retrieval_observed": true,
+    "primary_source_metadata_verified": true,
+    "primary_text_chars": 773,
+    "primary_text_sha256_utf8": "5121be91cf9ac86f5b31f12257cd6ef916d81f4c2950fcc9b5b6fcd849ee930c",
+    "legal_currentness_independently_reviewed": false,
+    "full_source_coverage_verified": false,
+    "windows_precheck_status": "blocked",
+    "processes_terminated": false,
+    "sandbox_read_verified": false,
+    "configuration_file_unchanged": true,
+    "candidate_cache_unchanged": true
+  },
+  "new_respondents": 0,
+  "new_judges": 0,
+  "new_campaign_prepared": false,
+  "new_campaign_measured": false,
+  "historical_scores_reused": false,
+  "critical_stop_reopening_tested": false,
+  "native_powerpoint_open_verified": false,
+  "human_review": false,
+  "release_ready": false,
+  "slide9_title": "Connexion juridique et reprise Windows",
+  "slide9_paragraphs": [
+    "Connexion juridique réussie le 9 octobre : OAuth confirmé, huit outils MCP disponibles.",
+    "Une lecture native MCP restitue un article et ses métadonnées. La couverture des cas et l’analyse juridique restent à vérifier.",
+    "Reprise Windows encore bloquée : des processus CUA Node restent actifs. Aucune terminaison automatique. Lecture des skills à froid à valider.",
+    "Aucun nouveau répondant. Le bilan R3 reste : trois cas jugés sur seize, deux réussites et un échec. STOP critique non couvert."
+  ],
+  "slide11_table": [
+    [
+      "Étape",
+      "État et preuve attendue"
+    ],
+    [
+      "Connexion juridique vérifiée",
+      "OAuth réussi, huit outils et une lecture native MCP"
+    ],
+    [
+      "Reprise Windows à froid",
+      "Lecture native des skills réussie, processus CUA inactifs"
+    ],
+    [
+      "Suite complète dev.7",
+      "Seize nouveaux cas jugés, dont réouverture STOP critique"
+    ],
+    [
+      "Revue DSI/RSSI et juridique",
+      "Avis humains sur les branches et les preuves exactes"
+    ],
+    [
+      "PowerPoint et distribution",
+      "Ouverture native, smoke du candidat et décision humaine"
+    ]
+  ],
+  "slide11_footer": "Bilan R3 inchangé. Avis humains en attente. release_ready=false.",
+  "notes_delta": "Mise à jour v11 au 9 octobre 2026, constat figé à 09:38:01 UTC. Les notes antérieures, conservées ci-dessus, documentent des snapshots historiques. La connexion juridique auparavant bloquée est désormais réussie. Le bilan comportemental R3 du 8 octobre reste inchangé.\n\nLe flux officiel OAuth confirme success=true et error=null à 09:25:09 UTC. La découverte native du candidat confirme oAuth, huit outils et aucune erreur de découverte à 09:25:53 UTC. La recherche native puis fetch à 09:33:11 UTC restituent 773 caractères d’un article et ses métadonnées, dont verified=true. Aucun corps juridique, règle ni identifiant d’article n’est reproduit dans les slides. La capacité de lecture constatée ne prouve ni la couverture de toutes les sources de campagne, ni une revue indépendante de la vigueur ou de l’applicabilité.\n\nLe précontrôle Windows à 09:38:01 UTC bloque encore sur le runtime CUA Node actif. Aucun processus n’est terminé automatiquement. La lecture native des skills à froid reste à vérifier. Les quatre erreurs historiques Windows 32 sur node.exe et les sondes application ouverte restent conservées, avec leurs limites. Aucun PID historique détenteur n’est déduit.\n\nZéro nouveau répondant et zéro nouveau juge. Aucune suite complète préparée ou mesurée. Le normaliseur révisé et ses futurs contrôles ne constituent pas une nouvelle mesure comportementale. Le bilan R3 demeure trois cas sur seize, deux réussites et un échec, 16 critères vrais, un faux et six non vérifiables. Les treize cas bloqués avant la mesure R3 ne sont pas réévalués à partir de la connexion rétablie.\n\nLes avis DSI/RSSI et juridique, la réouverture STOP critique, le smoke du candidat et l’ouverture PowerPoint native restent ouverts. La décision humaine de distribution demeure requise. release_ready=false.\n\nSources publiques assainies consultées pour cette mise à jour :\nconstat-connexion-dev7-20261009-093801-0a83c60e/constat-assaini.json\nSHA-256 fae8a90a86039a313bd32691081aa6c5e5092b0150bba3d9741c97cd319615c6\ndiagnostic-reprise-dev7-20261009-v2/diagnostic-assaini.json\nSHA-256 b5b681e728b05ae752164252d19d26d2fe26b64a897eb90457b257df7516c697\nbilan-dev7-r3-verifie-20261008.json\nSHA-256 932e89e32a0ff4afba43241087df39de70f2788750a12930d7d2a725d4a21ee6",
+  "local_original_receipt_sha256": "cd205029f2de9ec47a0e762a1f2664b381699c73303ad323fd4b93a1f094bf36",
+  "local_paths_replaced_in_public_derivative": true
+}

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-07T21:55:18.300962+00:00",
+  "copies": [
+    {
+      "path": "smoke-dev6-explicite-diagnostic-2026-10-07.md",
+      "sha256": "d17316ef580f456b29c9b760f412058f791fe4da37fbdceda8aee54ef96cc8f5"
+    },
+    {
+      "path": "smoke-dev6-explicite-diagnostic-2026-10-07.json",
+      "sha256": "db1e67fb13cb02477efc7b7d36c3ec204925ada7ffae46d111d70619ceb845fb"
+    },
+    {
+      "path": "diagnostic-smoke-dev6-explicite.ps1",
+      "sha256": "7acda61cf2ff845f1d3954e4c18a8f9c4455cc3e1c963f36a0a1259db7996d27"
+    },
+    {
+      "path": "analyser-diagnostic-smoke-dev6-explicite.py",
+      "sha256": "f0fd18f4a1c63b3d66754526433295cf5940e9deb3ed8b032b59bc5b55789229"
+    },
+    {
+      "path": "smoke/explicite-execution.json",
+      "sha256": "5fcc4a9bd148c2a70d2e55d9bfc61397817585d490fff16b8f065e24db501a6f"
+    },
+    {
+      "path": "outillage/publier_complement_smoke_dev6.py",
+      "sha256": "15f7af1212075e7c197d64d4a5e03ca14de73637f165ee63abd6660e533d7cc2"
+    }
+  ],
+  "updated_readmes": [
+    {
+      "path": "DSI-corrections-pr5/docs/qualification/2026-10-07/dev6-PARTIEL/README.md",
+      "before_sha256": "8e353c816bdf8847acf704c90c553def7525f8dc59e5880bbfef2ef75d9f92b1",
+      "after_sha256": "64ccb1cec234cd003b4a1d96f660c0779f930973ef39632985c4b372b2357e9a"
+    },
+    {
+      "path": "DSI-corrections-pr5/docs/qualification/2026-10-07/README.md",
+      "before_sha256": "c5a8f270486a925e849a92037d5c7bd5a7c5e424309093082dbdb758c762e695",
+      "after_sha256": "a65755dcf946ca13ad6301a53209c060ec19bc4f26e98e292c7ece77c52ce3fa"
+    },
+    {
+      "path": "Collectivite-corrections-pr5/docs/qualification/README.md",
+      "before_sha256": "4b627da615b0f89ab7b4d631f879e3422f2fac051fade9ebde3a112e03fe9116",
+      "after_sha256": "6e7782f7c5867559673f7ee9800899653dfec0afd2102b81c21dfc0666c9a084"
+    }
+  ],
+  "raw_developer_context_published": false,
+  "auth_or_state_published": false,
+  "model_inference_requested": false,
+  "actual_plugin_activation_verified": false,
+  "release_ready": false
+}

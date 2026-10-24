@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-07T19:35:22.379251+00:00",
+  "source_run": "codex-dev5-native-r2",
+  "measured_candidate_commit": "3f0d34bd068e3427edc9335a4f1415aaf1c7c98d",
+  "measured_runtime_source_commit": "ebeee944e878b11177d5ccb85d9043c4c97260a9",
+  "current_plugin_version": "1.2.0-dev.6",
+  "current_version_score_transferred": false,
+  "historical_scores_reused": false,
+  "audit_status": "passed",
+  "verified_native_roles": 32,
+  "copies": [
+    {
+      "source": "qualification-coactivation-dev5-codex-r2/rapport.md",
+      "destination": "DSI-corrections-pr5/docs/qualification/2026-10-07/coactivation-codex-r2/rapport.md",
+      "byte_count": 17329,
+      "source_sha256": "f28a43f08789d3895f857842ef40c14caf7a49c071a7fd269cba48297fb9fc2c",
+      "destination_sha256": "f28a43f08789d3895f857842ef40c14caf7a49c071a7fd269cba48297fb9fc2c",
+      "byte_identical": true
+    },
+    {
+      "source": "qualification-coactivation-dev5-codex-r2/synthese.json",
+      "destination": "DSI-corrections-pr5/docs/qualification/2026-10-07/coactivation-codex-r2/synthese.json",
+      "byte_count": 5294,
+      "source_sha256": "93d5b71f853ba5a19b57958506d6957592bb2a9a02cc24ec5522deef4ba93b19",
+      "destination_sha256": "93d5b71f853ba5a19b57958506d6957592bb2a9a02cc24ec5522deef4ba93b19",
+      "byte_identical": true
+    },
+    {
+      "source": "qualification-coactivation-dev5-codex-r2/audit-natif-final.json",
+      "destination": "DSI-corrections-pr5/docs/qualification/2026-10-07/coactivation-codex-r2/audit-natif-final.json",
+      "byte_count": 14135,
+      "source_sha256": "8fb9f01d5c64f5ca1197de55356d634d3c849dfe98c15dba2b8634d60b88ac56",
+      "destination_sha256": "8fb9f01d5c64f5ca1197de55356d634d3c849dfe98c15dba2b8634d60b88ac56",
+      "byte_identical": true
+    },
+    {
+      "source": "livrables/Controle-archive-Codex-dev5-r2-2026-10-07.json",
+      "destination": "DSI-corrections-pr5/docs/qualification/2026-10-07/coactivation-codex-r2/Controle-archive-Codex-dev5-r2-2026-10-07.json",
+      "byte_count": 280,
+      "source_sha256": "6125c9fb8a042767a6d3e53bec5ba96df2489cae05fb78ccea116ce7ca08f7b2",
+      "destination_sha256": "6125c9fb8a042767a6d3e53bec5ba96df2489cae05fb78ccea116ce7ca08f7b2",
+      "byte_identical": true
+    }
+  ],
+  "updated_readmes": [
+    {
+      "path": "Collectivite-corrections-pr5/README.md",
+      "before_sha256": "3fe51aa5f3ec21837f056b8a62826040c161d81bcec226f78ac2786027a4d96b",
+      "after_sha256": "0a9d32186ac0905b37747d2a4bcc2c94b5c2067b9a74f814d035279b53031b32"
+    },
+    {
+      "path": "Collectivite-corrections-pr5/docs/qualification/README.md",
+      "before_sha256": "3ec5f4bffb697b9b54074c5589ecf58605feb7c4a63aa3b2fb869a94e5a07d4f",
+      "after_sha256": "b1fa6d59e3ee7e64c2be519bd2647aa074d75c2aa643a4fe20b7f604e1b0066c"
+    },
+    {
+      "path": "DSI-corrections-pr5/docs/qualification/2026-10-07/README.md",
+      "before_sha256": "7775f4580674ca5376b340f7d0e65f0b91527dd2e450ee897c1a7340aa278a06",
+      "after_sha256": "c6f2e4e06485ebf880de38e5cc907308c898a72804f5a13164a6ded5a7637c87"
+    }
+  ],
+  "archive_sha256": "d40b8dbb3513085c0e2eb645547a227d47b1648133ca528b797495b4b3337e13",
+  "release_ready": false,
+  "claim": "Copies documentaires et octets contrôlés ; qualification et CI distinctes."
+}
