@@ -27,11 +27,11 @@ class PreuvesMesure(unittest.TestCase):
         for case in eval_suite.load_cases():
             directory = self.run / eval_suite.case_dir_name(case)
             response = directory / "response.md"
-            response.write_text("Réponse factice de test logiciel, aucune mesure du skill.\n")
+            response.write_text("Réponse factice de test logiciel, aucune mesure du skill.\n", encoding="utf-8")
             judgment = {"verdict": "ÉCHEC" if critical_failure and case["id"] == "cas-21" else "RÉUSSITE",
                         "notes": "Artefact factice de test logiciel.",
                         "response_sha256": eval_suite.suite_digest(response)}
-            (directory / "judgment.json").write_text(json.dumps(judgment))
+            (directory / "judgment.json").write_text(json.dumps(judgment), encoding="utf-8")
 
     def test_campagne_preparee_ne_produit_pas_de_score(self):
         with self.assertRaisesRegex(ValueError, "Artefacts manquants"):
@@ -43,37 +43,37 @@ class PreuvesMesure(unittest.TestCase):
             eval_suite.prepare_run(self.run, "autre", "autre")
 
     def test_suite_alteree_refusee(self):
-        (self.run / "suite.json").write_text("[]")
+        (self.run / "suite.json").write_text("[]", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "empreinte"):
             eval_suite.validate_run(self.run)
 
     def test_bareme_altere_refuse(self):
-        (self.run / "bareme.md").write_text("barème différent")
+        (self.run / "bareme.md").write_text("barème différent", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Barème"):
             eval_suite.validate_run(self.run)
 
     def test_prompt_altere_refuse(self):
-        (self.run / "cas-01" / "prompt.md").write_text("autre prompt")
+        (self.run / "cas-01" / "prompt.md").write_text("autre prompt", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "prompt altéré"):
             eval_suite.validate_run(self.run)
 
     def test_jugement_non_lie_refuse(self):
         self.complete()
-        (self.run / "cas-01" / "response.md").write_text("réponse modifiée")
+        (self.run / "cas-01" / "response.md").write_text("réponse modifiée", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "jugement non rattaché"):
             eval_suite.validate_run(self.run)
 
     def test_echec_critique_bloque_malgre_score_global(self):
         self.complete(critical_failure=True)
         totals = eval_suite.validate_run(self.run)
-        summary = json.loads(eval_suite.write_summary(self.run, totals).read_text())
+        summary = json.loads(eval_suite.write_summary(self.run, totals).read_text(encoding="utf-8"))
         self.assertEqual(summary["totals"]["RÉUSSITE"], 27)
         self.assertFalse(summary["threshold_passed"])
         self.assertEqual(summary["critical_failures"], ["cas-21"])
 
     def test_seuil_ne_remplace_pas_relecture_praticien(self):
         self.complete()
-        summary = json.loads(eval_suite.write_summary(self.run, eval_suite.validate_run(self.run)).read_text())
+        summary = json.loads(eval_suite.write_summary(self.run, eval_suite.validate_run(self.run)).read_text(encoding="utf-8"))
         self.assertTrue(summary["threshold_passed"])
         self.assertFalse(summary["publication_ready"])
 

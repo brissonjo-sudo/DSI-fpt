@@ -92,25 +92,25 @@ class CampagneLocale(unittest.TestCase):
 
     def test_reprise_refuse_reponse_modifiee(self):
         self.launch()
-        (self.kit / "resultats" / "cas-21" / "response.md").write_text("Réponse modifiée")
+        (self.kit / "resultats" / "cas-21" / "response.md").write_text("Réponse modifiée", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Preuve modifiée"):
             self.launch()
         self.assertEqual(len(self.calls), 2)
 
     def test_reprise_refuse_trace_modifiee(self):
         self.launch()
-        (self.kit / "resultats" / "cas-21" / "juge-stdout.txt").write_text("Trace modifiée")
+        (self.kit / "resultats" / "cas-21" / "juge-stdout.txt").write_text("Trace modifiée", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Preuve modifiée"):
             self.launch()
 
     def test_runtime_altere_refuse_avant_appel(self):
-        (self.kit / "runtime" / "SKILL.md").write_text("Runtime altéré")
+        (self.kit / "runtime" / "SKILL.md").write_text("Runtime altéré", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Runtime figé"):
             self.launch()
         self.assertEqual(self.calls, [])
 
     def test_lanceur_altere_refuse_avant_appel(self):
-        (self.kit / "scripts" / "eval_suite.py").write_text("Lanceur altéré")
+        (self.kit / "scripts" / "eval_suite.py").write_text("Lanceur altéré", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Lanceur altéré"):
             self.launch()
         self.assertEqual(self.calls, [])
@@ -118,10 +118,10 @@ class CampagneLocale(unittest.TestCase):
     def test_export_necrase_pas_archive_existante(self):
         destination = self.root / "nouveau-kit"
         archive = Path(str(destination) + ".zip")
-        archive.write_text("Archive à conserver")
+        archive.write_text("Archive à conserver", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Archive déjà existante"):
             mesure.export_kit(destination, self.prepared)
-        self.assertEqual(archive.read_text(), "Archive à conserver")
+        self.assertEqual(archive.read_text(encoding="utf-8"), "Archive à conserver")
         self.assertFalse(destination.exists())
 
     def test_nom_archive_conserve_version_complete(self):
@@ -172,7 +172,7 @@ class CampagneLocale(unittest.TestCase):
         manifest = mesure.load(self.kit / "resultats" / "manifest.json")
         self.assertEqual(manifest["responder"], "claude : modèle factice")
         # Même avec un sous-ensemble, une synthèse refuse une preuve d'un autre cas altérée.
-        (self.kit / "resultats" / "cas-01" / "respondant-stderr.txt").write_text("Altération")
+        (self.kit / "resultats" / "cas-01" / "respondant-stderr.txt").write_text("Altération", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Preuve modifiée"):
             self.launch(cases=["cas-28"])
 
