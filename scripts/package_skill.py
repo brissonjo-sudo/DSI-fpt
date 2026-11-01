@@ -58,7 +58,7 @@ def checked_output(raw_output: str | None, version: str) -> Path:
         output.relative_to(ROOT)
     except ValueError as error:
         raise ValueError("La destination du package doit rester dans le dépôt") from error
-    if output.suffix != ".zip" or output in runtime_files() or output == ROOT / "LICENSE":
+    if output.suffix != ".zip" or output in runtime_files() or output in (ROOT / "LICENSE", ROOT / "LICENCE.fr.txt"):
         raise ValueError("La destination doit être une archive .zip distincte des sources")
     return output
 
