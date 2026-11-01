@@ -40,3 +40,5 @@
 
 # Preuves empreintées : conserver leurs octets exacts, y compris les fins de ligne.
 docs/qualification/** -text
+# Texte officiel de l'EUPL (Commission européenne) : conservé octet pour octet.
+LICENCE.fr.txt -text -whitespace

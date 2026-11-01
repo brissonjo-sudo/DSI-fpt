@@ -12,6 +12,15 @@ la première version mesurée au seuil.
 
 ---
 
+## [Non publié] - 2026-11-01 - Licence EUPL 1.2
+
+- Passage à la licence publique de l'Union européenne (EUPL) 1.2 pour le code,
+  le skill, les scripts et les tests.
+- Textes officiels de la Commission européenne : anglais dans `LICENSE`,
+  français dans `LICENCE.fr.txt`.
+- Versions antérieures inchangées, sous leur licence d'origine.
+- Aucun changement de comportement.
+
 ## [0.2.1] — 2026-10-06 — candidat corrigé, qualification ouverte
 
 - Réconciliation des brouillons sécurité et cloud avec le socle complet.

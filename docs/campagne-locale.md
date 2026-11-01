@@ -147,5 +147,5 @@ python scripts/mesure_locale.py export --run-dir tests/runs/codex-v0.2.0-r1 --ou
 L'export vérifie le runtime courant contre le manifeste puis produit le
 dossier autonome et son `.zip`. Il n'effectue aucun appel. Si le runtime
 change, préparer d'abord un nouveau run avec `eval_suite.py prepare`, puis
-exporter vers une nouvelle destination. La licence CC-BY-SA-4.0 du skill
-est incluse dans le kit.
+exporter vers une nouvelle destination. La licence EUPL 1.2 du skill
+(textes anglais et français) est incluse dans le kit.

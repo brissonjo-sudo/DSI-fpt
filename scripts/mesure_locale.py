@@ -72,6 +72,7 @@ def export_kit(output: Path, run: Path) -> Path:
         shutil.copyfile(ROOT / "scripts" / name, target)
     shutil.copyfile(ROOT / "docs" / "campagne-locale.md", output / "LIRE-MOI.md")
     shutil.copyfile(ROOT / "LICENSE", output / "LICENSE")
+    shutil.copyfile(ROOT / "LICENCE.fr.txt", output / "LICENCE.fr.txt")
     save(output / "kit.json", {
         "format": 1, "skill_version": manifest["skill_version"],
         "created_at": datetime.now(UTC).isoformat(),

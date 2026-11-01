@@ -59,5 +59,9 @@ Commandes Claude/Codex, contrôle sans appel et reprise :
 
 ## Licence
 
-CC-BY-SA-4.0, comme le plugin `collectivite-territoriale` et les skills qu'il
-embarque. Voir `LICENSE`.
+Copyright (c) 2026 Jonathan BRISSON (@brissonjo-sudo)
+Licensed under the EUPL
+
+À compter de cette version, ce dépôt est diffusé sous licence publique de l'Union européenne (EUPL) 1.2 : texte anglais dans `LICENSE`, texte français dans `LICENCE.fr.txt`. Toutes les versions linguistiques de l'EUPL approuvées par la Commission européenne ont la même valeur (article 13 de la licence).
+
+Les versions antérieures restent sous licence Creative Commons Attribution-Partage dans les mêmes conditions 4.0 (CC-BY-SA-4.0), irrévocable pour les copies déjà diffusées.
