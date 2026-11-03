@@ -64,7 +64,7 @@
 | Valeur | Source |
 |---|---|
 | Date générale d'application : 2 août 2026 | Règlement (UE) 2024/1689, art. 113 (consolidé au 2026-07-27) |
-| Chapitres I et II : 2 février 2025 ; certains points de l'art. 5 : 2 décembre 2026 | Idem |
+| Chapitres I et II : 2 février 2025 ; date d'application de certains points de l'art. 5 : à vérifier (art. 113) | Idem |
 | Gouvernance, modèles à usage général, sanctions (chapitre III section 4, chapitres V, VII, XII, art. 78) : 2 août 2025 | Idem |
 | Haut risque (chapitre III, sections 1 à 3) : 2 décembre 2027 pour l'annexe III ; 2 août 2028 pour l'annexe I | Idem, modifié par le règlement (UE) 2026/1744 |
 | Systèmes à haut risque des autorités publiques déjà en service : mise en conformité au plus tard le 2 août 2030 | Règlement (UE) 2026/1744 |
@@ -74,7 +74,7 @@
 | Valeur | Source |
 |---|---|
 | Transposition au plus tard le 17 octobre 2024 ; application à partir du 18 octobre 2024 | Directive (UE) 2022/2555, art. 41 |
-| Projet de loi français : séance publique annoncée le 7 octobre 2026 ; seuils de population divergents selon les versions (30 000 / 250 000 habitants) — **aucun seuil retenu** | Dossier législatif, lu le 2026-10-05 |
+| Projet de loi français : séance publique annoncée le 7 octobre 2026 ; seuils de population divergents selon les versions (30 000 / 250 000 habitants) — **aucun seuil retenu** ; statut au 2026-11-03 : projet, aucune promulgation constatée | Dossier législatif, lu le 2026-10-05 |
 
 ## Versions des référentiels et de la doctrine (lues le 2026-10-05)
 

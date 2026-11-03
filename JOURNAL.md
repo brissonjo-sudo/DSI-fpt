@@ -28,6 +28,18 @@
 
 ## Entrées
 
+### 2026-11-03 — Veille juridique mensuelle
+
+- **Type** : lacune
+- **Branche** : registre des références et cache des valeurs
+- **Contexte (anonymisé)** : contrôle périodique des sources après un mois.
+- **Constat** : dates de version du CCP, art. L. 2192-5, non portées au registre ;
+  date du règlement IA attribuée à l'art. 5 sans confirmation à la source ;
+  statut du projet NIS2 non daté.
+- **Action proposée** : dater, retirer l'affirmation non confirmée, relire
+  l'art. 113 sur EUR-Lex (non rendu par l'outil) et l'édition du catalogue ANSSI.
+- **Statut** : intégré v0.2.2 ; art. 113 et catalogue encore à confirmer.
+
 ### 2026-10-06 — Portage de la campagne vers le poste de mesure
 
 - **Type** : lacune

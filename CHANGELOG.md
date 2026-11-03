@@ -12,6 +12,17 @@ la première version mesurée au seuil.
 
 ---
 
+## [0.2.2] — 2026-11-03 — veille juridique
+
+- Recontrôle de 63 identifiants par l'API Légifrance : aucun changement de fond.
+- Registre : CCP, art. L. 2192-5, dates portées pour les deux versions (applicable
+  jusqu'au 2027-01-01 ; en vigueur différée à compter du 2027-01-01) ; ligne de veille.
+- Cache : date du règlement IA rattachée à l'art. 5 non confirmée, remplacée par
+  « à vérifier (art. 113) » ; statut du projet de loi NIS2 daté (projet, aucune
+  promulgation constatée) ; édition du catalogue ANSSI non confirmée, inchangée.
+- Socle doctrine : deux pointeurs ANSSI (fiches ReCyF, IA agentique), non normatifs.
+- Aucun changement de comportement du skill.
+
 ## [Non publié] - 2026-11-01 - Licence EUPL 1.2
 
 - Passage à la licence publique de l'Union européenne (EUPL) 1.2 pour le code,
